@@ -9,5 +9,6 @@ target 'Bridgefy' do
 
   pod 'Alamofire'
   pod 'Kingfisher'
+  pod 'Hero'
 
 end

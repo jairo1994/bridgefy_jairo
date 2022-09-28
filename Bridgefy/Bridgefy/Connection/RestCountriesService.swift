@@ -33,17 +33,17 @@ class RestCountriesService{
         }
     }
     
-//    func lookForRequest(lookFor: String, Callback: @escaping(_ locations: [LocationModel]?)->Void){
-//        let url = "\(baseUrl)search"
-//
-//        RequestService.shared.getFrom(url: url, parameters: ["query": lookFor as AnyObject], timeOutInterval: 20, headers: header, type: [LocationModel].self) { (data, error) in
-//            if error == nil, let objc = data as? [LocationModel]{
-//                Callback(objc)
-//            }else{
-//                Callback(nil)
-//            }
-//        }
-//    }
+    func countryDetail(country: String, Callback: @escaping(_ country: CountryDetailModel?)->Void){
+        let url = "\(baseUrl)\(detailCountry.replacingOccurrences(of: "$country", with: country))"
+
+        RequestService.shared.getFrom(url: url, parameters: nil, timeOutInterval: 20, headers: header, type: [CountryDetailModel].self) { (data, error) in
+            if error == nil, let objc = data as? [CountryDetailModel]{
+                Callback(objc.first)
+            }else{
+                Callback(nil)
+            }
+        }
+    }
     
     
 }

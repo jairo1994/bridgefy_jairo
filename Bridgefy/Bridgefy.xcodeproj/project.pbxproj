@@ -198,6 +198,20 @@
 		8B7AC6E128E27213001BA1CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6DF28E27213001BA1CF /* LoginViewController.swift */; };
 		8B7AC6E328E2723B001BA1CF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AC6E228E2723B001BA1CF /* Colors.xcassets */; };
 		8B7AC6E528E2724C001BA1CF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6E428E2724C001BA1CF /* Colors.swift */; };
+		8BD7A46B28E501F20032E33D /* FlagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46A28E501F20032E33D /* FlagCollectionViewCell.swift */; };
+		8BD7A46D28E502740032E33D /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46C28E502740032E33D /* UIViewController+extension.swift */; };
+		8BFD2C3E28E4CDB300EDDF18 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD2C3D28E4CDB300EDDF18 /* UIView+Extension.swift */; };
+		8BFD2C4C28E4E14500EDDF18 /* PhoneCode.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4228E4E14500EDDF18 /* PhoneCode.pdf */; };
+		8BFD2C4D28E4E14500EDDF18 /* Icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4328E4E14500EDDF18 /* Icon.pdf */; };
+		8BFD2C4E28E4E14500EDDF18 /* Languages.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4428E4E14500EDDF18 /* Languages.pdf */; };
+		8BFD2C4F28E4E14500EDDF18 /* CountriesOn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4528E4E14500EDDF18 /* CountriesOn.pdf */; };
+		8BFD2C5028E4E14500EDDF18 /* Population.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4628E4E14500EDDF18 /* Population.pdf */; };
+		8BFD2C5128E4E14500EDDF18 /* CountriesOff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4728E4E14500EDDF18 /* CountriesOff.pdf */; };
+		8BFD2C5228E4E14500EDDF18 /* BLEOn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4828E4E14500EDDF18 /* BLEOn.pdf */; };
+		8BFD2C5328E4E14500EDDF18 /* BLEOff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4928E4E14500EDDF18 /* BLEOff.pdf */; };
+		8BFD2C5428E4E14500EDDF18 /* Timezones.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4A28E4E14500EDDF18 /* Timezones.pdf */; };
+		8BFD2C5528E4E14500EDDF18 /* Currency.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4B28E4E14500EDDF18 /* Currency.pdf */; };
+		8BFD2C5828E4E5DE00EDDF18 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD2C5728E4E5DE00EDDF18 /* UIImageView+extension.swift */; };
 		A976C5B80B21F4A0E55B0E7F /* Pods_Bridgefy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDE433FC631BAC15E6552A /* Pods_Bridgefy.framework */; };
 /* End PBXBuildFile section */
 
@@ -398,6 +412,20 @@
 		8B7AC6DF28E27213001BA1CF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8B7AC6E228E2723B001BA1CF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8B7AC6E428E2724C001BA1CF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8BD7A46A28E501F20032E33D /* FlagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BD7A46C28E502740032E33D /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		8BFD2C3D28E4CDB300EDDF18 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8BFD2C4228E4E14500EDDF18 /* PhoneCode.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PhoneCode.pdf; sourceTree = "<group>"; };
+		8BFD2C4328E4E14500EDDF18 /* Icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Icon.pdf; sourceTree = "<group>"; };
+		8BFD2C4428E4E14500EDDF18 /* Languages.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Languages.pdf; sourceTree = "<group>"; };
+		8BFD2C4528E4E14500EDDF18 /* CountriesOn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CountriesOn.pdf; sourceTree = "<group>"; };
+		8BFD2C4628E4E14500EDDF18 /* Population.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Population.pdf; sourceTree = "<group>"; };
+		8BFD2C4728E4E14500EDDF18 /* CountriesOff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CountriesOff.pdf; sourceTree = "<group>"; };
+		8BFD2C4828E4E14500EDDF18 /* BLEOn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLEOn.pdf; sourceTree = "<group>"; };
+		8BFD2C4928E4E14500EDDF18 /* BLEOff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLEOff.pdf; sourceTree = "<group>"; };
+		8BFD2C4A28E4E14500EDDF18 /* Timezones.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Timezones.pdf; sourceTree = "<group>"; };
+		8BFD2C4B28E4E14500EDDF18 /* Currency.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Currency.pdf; sourceTree = "<group>"; };
+		8BFD2C5728E4E5DE00EDDF18 /* UIImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,8 +473,6 @@
 				8B31882D28E3C05400C80888 /* Base */,
 				8B7AC6CD28E271A8001BA1CF /* Assets.xcassets */,
 				8B7AC6E228E2723B001BA1CF /* Colors.xcassets */,
-				8B7AC6E428E2724C001BA1CF /* Colors.swift */,
-				8B31898428E3C0BA00C80888 /* Image.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -463,6 +489,7 @@
 		8B31882E28E3C05B00C80888 /* Countries */ = {
 			isa = PBXGroup;
 			children = (
+				8BFD2C4128E4E14500EDDF18 /* Images */,
 				8B31882F28E3C07800C80888 /* Maps */,
 			);
 			path = Countries;
@@ -648,9 +675,18 @@
 		8B31898628E3C56400C80888 /* Country detail */ = {
 			isa = PBXGroup;
 			children = (
-				8B31898728E3C58300C80888 /* CountryDetailViewController.swift */,
+				8B31898928E4ADEF00C80888 /* View */,
 			);
 			path = "Country detail";
+			sourceTree = "<group>";
+		};
+		8B31898928E4ADEF00C80888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B31898728E3C58300C80888 /* CountryDetailViewController.swift */,
+				8BD7A46A28E501F20032E33D /* FlagCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8B32DD2628E2799200F4D978 /* Tab bar */ = {
@@ -752,6 +788,7 @@
 		8B7AC6C028E271A7001BA1CF /* Bridgefy */ = {
 			isa = PBXGroup;
 			children = (
+				8BFD2C5628E4E5CE00EDDF18 /* Utils */,
 				8B31882C28E3C02E00C80888 /* Assets */,
 				8B2EA48428E3815C00A866C9 /* Connection */,
 				8B7AC6D828E27213001BA1CF /* Modules */,
@@ -812,6 +849,35 @@
 				8B7AC6DF28E27213001BA1CF /* LoginViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8BFD2C4128E4E14500EDDF18 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8BFD2C4228E4E14500EDDF18 /* PhoneCode.pdf */,
+				8BFD2C4328E4E14500EDDF18 /* Icon.pdf */,
+				8BFD2C4428E4E14500EDDF18 /* Languages.pdf */,
+				8BFD2C4528E4E14500EDDF18 /* CountriesOn.pdf */,
+				8BFD2C4628E4E14500EDDF18 /* Population.pdf */,
+				8BFD2C4728E4E14500EDDF18 /* CountriesOff.pdf */,
+				8BFD2C4828E4E14500EDDF18 /* BLEOn.pdf */,
+				8BFD2C4928E4E14500EDDF18 /* BLEOff.pdf */,
+				8BFD2C4A28E4E14500EDDF18 /* Timezones.pdf */,
+				8BFD2C4B28E4E14500EDDF18 /* Currency.pdf */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8BFD2C5628E4E5CE00EDDF18 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8B7AC6E428E2724C001BA1CF /* Colors.swift */,
+				8B31898428E3C0BA00C80888 /* Image.swift */,
+				8BFD2C3D28E4CDB300EDDF18 /* UIView+Extension.swift */,
+				8BFD2C5728E4E5DE00EDDF18 /* UIImageView+extension.swift */,
+				8BD7A46C28E502740032E33D /* UIViewController+extension.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		924814086A1CD266B5ECE0B8 /* Frameworks */ = {
@@ -889,11 +955,14 @@
 				8B31892B28E3C07800C80888 /* TLS.pdf in Resources */,
 				8B31894828E3C07800C80888 /* LSO.pdf in Resources */,
 				8B31892928E3C07800C80888 /* TWN.pdf in Resources */,
+				8BFD2C5528E4E14500EDDF18 /* Currency.pdf in Resources */,
 				8B31890028E3C07800C80888 /* AGO.pdf in Resources */,
 				8B3188F228E3C07800C80888 /* GHA.pdf in Resources */,
+				8BFD2C4D28E4E14500EDDF18 /* Icon.pdf in Resources */,
 				8B3188E328E3C07800C80888 /* NCL.pdf in Resources */,
 				8B31895728E3C07800C80888 /* CAF.pdf in Resources */,
 				8B3188E128E3C07800C80888 /* VEN.pdf in Resources */,
+				8BFD2C5428E4E14500EDDF18 /* Timezones.pdf in Resources */,
 				8B31897428E3C07800C80888 /* LVA.pdf in Resources */,
 				8B31896E28E3C07800C80888 /* CHL.pdf in Resources */,
 				8B31892F28E3C07800C80888 /* ETH.pdf in Resources */,
@@ -975,6 +1044,7 @@
 				8B31893628E3C07800C80888 /* TTO.pdf in Resources */,
 				8B3188FD28E3C07800C80888 /* STP.pdf in Resources */,
 				8B31896228E3C07800C80888 /* HND.pdf in Resources */,
+				8BFD2C4C28E4E14500EDDF18 /* PhoneCode.pdf in Resources */,
 				8B3188F428E3C07800C80888 /* BLZ.pdf in Resources */,
 				8B3188E628E3C07800C80888 /* GRL.pdf in Resources */,
 				8B7AC6E328E2723B001BA1CF /* Colors.xcassets in Resources */,
@@ -998,15 +1068,19 @@
 				8B31893C28E3C07800C80888 /* TCD.pdf in Resources */,
 				8B3188DB28E3C07800C80888 /* CRI.pdf in Resources */,
 				8B31897728E3C07800C80888 /* IRL.pdf in Resources */,
+				8BFD2C5028E4E14500EDDF18 /* Population.pdf in Resources */,
 				8B31893928E3C07800C80888 /* FIN.pdf in Resources */,
 				8B3188FE28E3C07800C80888 /* DZA.pdf in Resources */,
+				8BFD2C4F28E4E14500EDDF18 /* CountriesOn.pdf in Resources */,
 				8B3188DC28E3C07800C80888 /* SYR.pdf in Resources */,
+				8BFD2C5128E4E14500EDDF18 /* CountriesOff.pdf in Resources */,
 				8B31894628E3C07800C80888 /* MNE.pdf in Resources */,
 				8B3188EC28E3C07800C80888 /* SUR.pdf in Resources */,
 				8B31890D28E3C07800C80888 /* SSD.pdf in Resources */,
 				8B31892E28E3C07800C80888 /* BRN.pdf in Resources */,
 				8B31892028E3C07800C80888 /* SEN.pdf in Resources */,
 				8B3188F628E3C07800C80888 /* NLD.pdf in Resources */,
+				8BFD2C5228E4E14500EDDF18 /* BLEOn.pdf in Resources */,
 				8B31895D28E3C07800C80888 /* GIN.pdf in Resources */,
 				8B31892528E3C07800C80888 /* UGA.pdf in Resources */,
 				8B31894328E3C07800C80888 /* BEL.pdf in Resources */,
@@ -1018,6 +1092,7 @@
 				8B31893D28E3C07800C80888 /* OMN.pdf in Resources */,
 				8B31892828E3C07800C80888 /* PLW.pdf in Resources */,
 				8B31895B28E3C07800C80888 /* BEN.pdf in Resources */,
+				8BFD2C4E28E4E14500EDDF18 /* Languages.pdf in Resources */,
 				8B31896328E3C07800C80888 /* NAM.pdf in Resources */,
 				8B31897928E3C07800C80888 /* PRY.pdf in Resources */,
 				8B31893A28E3C07800C80888 /* CYP.pdf in Resources */,
@@ -1039,6 +1114,7 @@
 				8B31891928E3C07800C80888 /* LKA.pdf in Resources */,
 				8B31893328E3C07800C80888 /* PAK.pdf in Resources */,
 				8B31890328E3C07800C80888 /* SVN.pdf in Resources */,
+				8BFD2C5328E4E14500EDDF18 /* BLEOff.pdf in Resources */,
 				8B3188F128E3C07800C80888 /* QAT.pdf in Resources */,
 				8B3188F328E3C07800C80888 /* PHL.pdf in Resources */,
 				8B31896A28E3C07800C80888 /* TGO.pdf in Resources */,
@@ -1108,7 +1184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD7A46B28E501F20032E33D /* FlagCollectionViewCell.swift in Sources */,
 				8B32DD2828E279B400F4D978 /* TabBarViewController.swift in Sources */,
+				8BD7A46D28E502740032E33D /* UIViewController+extension.swift in Sources */,
 				8B31898828E3C58300C80888 /* CountryDetailViewController.swift in Sources */,
 				8B7AC6E128E27213001BA1CF /* LoginViewController.swift in Sources */,
 				8B2EA48628E3822600A866C9 /* RequestService.swift in Sources */,
@@ -1116,6 +1194,7 @@
 				8B7AC6CC28E271A7001BA1CF /* Bridgefy.xcdatamodeld in Sources */,
 				8B7AC6E528E2724C001BA1CF /* Colors.swift in Sources */,
 				8B7AC6C228E271A7001BA1CF /* AppDelegate.swift in Sources */,
+				8BFD2C3E28E4CDB300EDDF18 /* UIView+Extension.swift in Sources */,
 				8B2EA48F28E398F600A866C9 /* LoadingView.swift in Sources */,
 				8B2EA48828E3829200A866C9 /* RestCountriesService.swift in Sources */,
 				8B31898528E3C0BA00C80888 /* Image.swift in Sources */,
@@ -1124,6 +1203,7 @@
 				8B31882B28E3B8EC00C80888 /* CountryTableViewCell.swift in Sources */,
 				8B2EA48A28E3832C00A866C9 /* CountryModel.swift in Sources */,
 				8B7AC6E028E27213001BA1CF /* UserModel.swift in Sources */,
+				8BFD2C5828E4E5DE00EDDF18 /* UIImageView+extension.swift in Sources */,
 				8B7AC6C428E271A7001BA1CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

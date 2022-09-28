@@ -11,6 +11,7 @@ extension UIViewController {
     func showLoading(text: String = "Cargando...") {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .white
         view.tag = 1894
         
         let loading = UILabel()
