@@ -1,0 +1,6 @@
+framework module Pods_Bridgefy {
+  umbrella header "Pods-Bridgefy-umbrella.h"
+
+  export *
+  module * { export * }
+}
