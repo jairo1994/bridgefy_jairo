@@ -22,9 +22,10 @@ class CountriesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setupView()
-        fetchCountries()
+        if viewModel.countriesSaved.count == 0 {
+            setupView()
+            fetchCountries()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -101,13 +102,45 @@ class CountriesViewController: UIViewController {
         return stack
     }
     
-    func regionLabel(name: String) -> UILabel {
+    func regionLabel(name: String, section: Int) -> UIView {
         let lbl = UILabel()
         lbl.font = UIFont.boldSystemFont(ofSize: 18)
-        lbl.text = " \(name)"
         lbl.backgroundColor = .white
         
-        return lbl
+        if section == 0{
+            
+            lbl.text = " \(name)"
+            btnGroup.removeFromSuperview()
+            
+            btnGroup.translatesAutoresizingMaskIntoConstraints = false
+            btnGroup.tintColor = Colors.Enfasis.color
+            btnGroup.setTitle("Ungroup", for: .normal)
+            btnGroup.addTarget(self, action: #selector(group), for: .touchUpInside)
+            
+            lbl.translatesAutoresizingMaskIntoConstraints = false
+            
+            let stack = UIView()
+            
+            stack.backgroundColor = .white
+            
+            stack.addSubview(btnGroup)
+            stack.addSubview(lbl)
+            
+            NSLayoutConstraint.activate([
+                btnGroup.trailingAnchor.constraint(equalTo: stack.trailingAnchor, constant: -8),
+                btnGroup.topAnchor.constraint(equalTo: stack.topAnchor),
+                
+                lbl.topAnchor.constraint(equalTo: btnGroup.bottomAnchor),
+                lbl.leadingAnchor.constraint(equalTo: stack.leadingAnchor, constant: 8),
+                lbl.trailingAnchor.constraint(equalTo: stack.trailingAnchor, constant: -8)
+            ])
+            
+            return stack
+        } else {
+            
+            lbl.text = "   \(name)"
+            return lbl
+        }
     }
     
     @objc func group(){
@@ -168,9 +201,14 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if viewModel.isGrouped {
-            return 40
+            
+            if section == 0 {
+                return 60
+            } else {
+                return 40
+            }
         }else {
-            return 130
+            return 135
         }
     }
     
@@ -178,19 +216,22 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
         if viewModel.isGrouped {
             let regionName = viewModel.getRegionName(section: section)
             
-            return regionLabel(name: regionName)
+            return regionLabel(name: regionName, section: section)
         } else {
             return searchView()
         }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detailVC = CountryDetailViewController()
+        
         self.showLoading()
-        viewModel.lookForCountryDetail(indexPath: indexPath) { country in
+        viewModel.lookForCountryDetail(indexPath: indexPath) { country, isSaved in
             self.hideLoading()
             if let country = country {
-                detailVC.countryDetail = country
+                let viewM = CountryDetailViewModel(countryDetail: country, isSaved: isSaved)
+                let detailVC = CountryDetailViewController(viewModel: viewM)
+                
+                detailVC.hidesBottomBarWhenPushed = true
                 self.navigationController?.pushViewController(detailVC, animated: true)
             }
         }

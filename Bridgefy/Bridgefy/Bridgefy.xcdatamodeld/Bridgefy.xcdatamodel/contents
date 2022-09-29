@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Country" representedClassName="Country" syncable="YES" codeGenerationType="class">
+        <attribute name="alpha2Code" optional="YES" attributeType="String"/>
+        <attribute name="alpha3Code" optional="YES" attributeType="String"/>
+        <attribute name="area" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="borders" optional="YES" attributeType="Transformable"/>
+        <attribute name="callingcodes" optional="YES" attributeType="Transformable"/>
+        <attribute name="capital" optional="YES" attributeType="String"/>
+        <attribute name="exchange" optional="YES" attributeType="String"/>
+        <attribute name="languages" optional="YES" attributeType="Transformable"/>
+        <attribute name="latlng" optional="YES" attributeType="Transformable"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nativeName" optional="YES" attributeType="String"/>
+        <attribute name="population" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="region" optional="YES" attributeType="String"/>
+        <attribute name="subregion" optional="YES" attributeType="String"/>
+        <attribute name="timezones" optional="YES" attributeType="Transformable"/>
+        <attribute name="urlimage" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Country" positionX="-63" positionY="-18" width="128" height="269"/>
+    </elements>
 </model>

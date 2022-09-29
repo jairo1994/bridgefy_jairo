@@ -13,181 +13,15 @@
 		8B2EA48C28E387CB00A866C9 /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2EA48B28E387CB00A866C9 /* CountriesViewModel.swift */; };
 		8B2EA48F28E398F600A866C9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2EA48E28E398F600A866C9 /* LoadingView.swift */; };
 		8B31882B28E3B8EC00C80888 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31882A28E3B8EC00C80888 /* CountryTableViewCell.swift */; };
-		8B3188DA28E3C07800C80888 /* EGY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883028E3C07800C80888 /* EGY.pdf */; };
-		8B3188DB28E3C07800C80888 /* CRI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883128E3C07800C80888 /* CRI.pdf */; };
-		8B3188DC28E3C07800C80888 /* SYR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883228E3C07800C80888 /* SYR.pdf */; };
-		8B3188DD28E3C07800C80888 /* MEX.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883328E3C07800C80888 /* MEX.pdf */; };
-		8B3188DE28E3C07800C80888 /* MKD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883428E3C07800C80888 /* MKD.pdf */; };
-		8B3188DF28E3C07800C80888 /* SAU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883528E3C07800C80888 /* SAU.pdf */; };
-		8B3188E028E3C07800C80888 /* SLE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883628E3C07800C80888 /* SLE.pdf */; };
-		8B3188E128E3C07800C80888 /* VEN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883728E3C07800C80888 /* VEN.pdf */; };
-		8B3188E228E3C07800C80888 /* SVK.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883828E3C07800C80888 /* SVK.pdf */; };
-		8B3188E328E3C07800C80888 /* NCL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883928E3C07800C80888 /* NCL.pdf */; };
-		8B3188E428E3C07800C80888 /* IDN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883A28E3C07800C80888 /* IDN.pdf */; };
-		8B3188E528E3C07800C80888 /* PSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883B28E3C07800C80888 /* PSE.pdf */; };
-		8B3188E628E3C07800C80888 /* GRL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883C28E3C07800C80888 /* GRL.pdf */; };
-		8B3188E728E3C07800C80888 /* PRT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883D28E3C07800C80888 /* PRT.pdf */; };
-		8B3188E828E3C07800C80888 /* NZL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883E28E3C07800C80888 /* NZL.pdf */; };
-		8B3188E928E3C07800C80888 /* KHM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31883F28E3C07800C80888 /* KHM.pdf */; };
-		8B3188EA28E3C07800C80888 /* ISR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884028E3C07800C80888 /* ISR.pdf */; };
-		8B3188EB28E3C07800C80888 /* ESH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884128E3C07800C80888 /* ESH.pdf */; };
-		8B3188EC28E3C07800C80888 /* SUR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884228E3C07800C80888 /* SUR.pdf */; };
-		8B3188ED28E3C07800C80888 /* SWZ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884328E3C07800C80888 /* SWZ.pdf */; };
-		8B3188EE28E3C07800C80888 /* CHE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884428E3C07800C80888 /* CHE.pdf */; };
-		8B3188EF28E3C07800C80888 /* ASM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884528E3C07800C80888 /* ASM.pdf */; };
-		8B3188F028E3C07800C80888 /* CIV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884628E3C07800C80888 /* CIV.pdf */; };
-		8B3188F128E3C07800C80888 /* QAT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884728E3C07800C80888 /* QAT.pdf */; };
-		8B3188F228E3C07800C80888 /* GHA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884828E3C07800C80888 /* GHA.pdf */; };
-		8B3188F328E3C07800C80888 /* PHL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884928E3C07800C80888 /* PHL.pdf */; };
-		8B3188F428E3C07800C80888 /* BLZ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884A28E3C07800C80888 /* BLZ.pdf */; };
-		8B3188F528E3C07800C80888 /* ERI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884B28E3C07800C80888 /* ERI.pdf */; };
-		8B3188F628E3C07800C80888 /* NLD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884C28E3C07800C80888 /* NLD.pdf */; };
-		8B3188F728E3C07800C80888 /* SLB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884D28E3C07800C80888 /* SLB.pdf */; };
-		8B3188F828E3C07800C80888 /* ARM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884E28E3C07800C80888 /* ARM.pdf */; };
-		8B3188F928E3C07800C80888 /* BTN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31884F28E3C07800C80888 /* BTN.pdf */; };
-		8B3188FA28E3C07800C80888 /* KEN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885028E3C07800C80888 /* KEN.pdf */; };
-		8B3188FB28E3C07800C80888 /* LBN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885128E3C07800C80888 /* LBN.pdf */; };
-		8B3188FC28E3C07800C80888 /* LBY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885228E3C07800C80888 /* LBY.pdf */; };
-		8B3188FD28E3C07800C80888 /* STP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885328E3C07800C80888 /* STP.pdf */; };
-		8B3188FE28E3C07800C80888 /* DZA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885428E3C07800C80888 /* DZA.pdf */; };
-		8B3188FF28E3C07800C80888 /* MRT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885528E3C07800C80888 /* MRT.pdf */; };
-		8B31890028E3C07800C80888 /* AGO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885628E3C07800C80888 /* AGO.pdf */; };
-		8B31890128E3C07800C80888 /* SOM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885728E3C07800C80888 /* SOM.pdf */; };
-		8B31890228E3C07800C80888 /* SLV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885828E3C07800C80888 /* SLV.pdf */; };
-		8B31890328E3C07800C80888 /* SVN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885928E3C07800C80888 /* SVN.pdf */; };
-		8B31890428E3C07800C80888 /* LTU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885A28E3C07800C80888 /* LTU.pdf */; };
-		8B31890528E3C07800C80888 /* BWA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885B28E3C07800C80888 /* BWA.pdf */; };
-		8B31890628E3C07800C80888 /* IRQ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885C28E3C07800C80888 /* IRQ.pdf */; };
-		8B31890728E3C07800C80888 /* UKR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885D28E3C07800C80888 /* UKR.pdf */; };
-		8B31890828E3C07800C80888 /* ITA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885E28E3C07800C80888 /* ITA.pdf */; };
-		8B31890928E3C07800C80888 /* MWI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31885F28E3C07800C80888 /* MWI.pdf */; };
-		8B31890A28E3C07800C80888 /* HRV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886028E3C07800C80888 /* HRV.pdf */; };
-		8B31890B28E3C07800C80888 /* MAR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886128E3C07800C80888 /* MAR.pdf */; };
-		8B31890C28E3C07800C80888 /* ZWE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886228E3C07800C80888 /* ZWE.pdf */; };
-		8B31890D28E3C07800C80888 /* SSD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886328E3C07800C80888 /* SSD.pdf */; };
-		8B31890E28E3C07800C80888 /* RUS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886428E3C07800C80888 /* RUS.pdf */; };
-		8B31890F28E3C07800C80888 /* GTM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886528E3C07800C80888 /* GTM.pdf */; };
-		8B31891028E3C07800C80888 /* NPL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886628E3C07800C80888 /* NPL.pdf */; };
-		8B31891128E3C07800C80888 /* SRB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886728E3C07800C80888 /* SRB.pdf */; };
-		8B31891228E3C07800C80888 /* MTQ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886828E3C07800C80888 /* MTQ.pdf */; };
-		8B31891328E3C07800C80888 /* DJI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886928E3C07800C80888 /* DJI.pdf */; };
-		8B31891428E3C07800C80888 /* MMR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886A28E3C07800C80888 /* MMR.pdf */; };
-		8B31891528E3C07800C80888 /* SDN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886B28E3C07800C80888 /* SDN.pdf */; };
-		8B31891628E3C07800C80888 /* MOZ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886C28E3C07800C80888 /* MOZ.pdf */; };
-		8B31891728E3C07800C80888 /* GNB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886D28E3C07800C80888 /* GNB.pdf */; };
-		8B31891828E3C07800C80888 /* USA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886E28E3C07800C80888 /* USA.pdf */; };
-		8B31891928E3C07800C80888 /* LKA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31886F28E3C07800C80888 /* LKA.pdf */; };
-		8B31891A28E3C07800C80888 /* GNQ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887028E3C07800C80888 /* GNQ.pdf */; };
-		8B31891B28E3C07800C80888 /* GBR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887128E3C07800C80888 /* GBR.pdf */; };
-		8B31891C28E3C07800C80888 /* MYS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887228E3C07800C80888 /* MYS.pdf */; };
-		8B31891D28E3C07800C80888 /* TUR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887328E3C07800C80888 /* TUR.pdf */; };
-		8B31891E28E3C07800C80888 /* VNM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887428E3C07800C80888 /* VNM.pdf */; };
-		8B31891F28E3C07800C80888 /* AZE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887528E3C07800C80888 /* AZE.pdf */; };
-		8B31892028E3C07800C80888 /* SEN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887628E3C07800C80888 /* SEN.pdf */; };
-		8B31892128E3C07800C80888 /* DEU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887728E3C07800C80888 /* DEU.pdf */; };
-		8B31892228E3C07800C80888 /* COG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887828E3C07800C80888 /* COG.pdf */; };
-		8B31892328E3C07800C80888 /* NGA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887928E3C07800C80888 /* NGA.pdf */; };
-		8B31892428E3C07800C80888 /* ECU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887A28E3C07800C80888 /* ECU.pdf */; };
-		8B31892528E3C07800C80888 /* UGA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887B28E3C07800C80888 /* UGA.pdf */; };
-		8B31892628E3C07800C80888 /* NRU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887C28E3C07800C80888 /* NRU.pdf */; };
-		8B31892728E3C07800C80888 /* POL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887D28E3C07800C80888 /* POL.pdf */; };
-		8B31892828E3C07800C80888 /* PLW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887E28E3C07800C80888 /* PLW.pdf */; };
-		8B31892928E3C07800C80888 /* TWN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31887F28E3C07800C80888 /* TWN.pdf */; };
-		8B31892A28E3C07800C80888 /* JPN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888028E3C07800C80888 /* JPN.pdf */; };
-		8B31892B28E3C07800C80888 /* TLS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888128E3C07800C80888 /* TLS.pdf */; };
-		8B31892C28E3C07800C80888 /* CAN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888228E3C07800C80888 /* CAN.pdf */; };
-		8B31892D28E3C07800C80888 /* CZE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888328E3C07800C80888 /* CZE.pdf */; };
-		8B31892E28E3C07800C80888 /* BRN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888428E3C07800C80888 /* BRN.pdf */; };
-		8B31892F28E3C07800C80888 /* ETH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888528E3C07800C80888 /* ETH.pdf */; };
-		8B31893028E3C07800C80888 /* GUY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888628E3C07800C80888 /* GUY.pdf */; };
-		8B31893128E3C07800C80888 /* ROU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888728E3C07800C80888 /* ROU.pdf */; };
-		8B31893228E3C07800C80888 /* URY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888828E3C07800C80888 /* URY.pdf */; };
-		8B31893328E3C07800C80888 /* PAK.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888928E3C07800C80888 /* PAK.pdf */; };
-		8B31893428E3C07800C80888 /* ZMB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888A28E3C07800C80888 /* ZMB.pdf */; };
-		8B31893528E3C07800C80888 /* AUS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888B28E3C07800C80888 /* AUS.pdf */; };
-		8B31893628E3C07800C80888 /* TTO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888C28E3C07800C80888 /* TTO.pdf */; };
-		8B31893728E3C07800C80888 /* BIH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888D28E3C07800C80888 /* BIH.pdf */; };
-		8B31893828E3C07800C80888 /* PNG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888E28E3C07800C80888 /* PNG.pdf */; };
-		8B31893928E3C07800C80888 /* FIN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31888F28E3C07800C80888 /* FIN.pdf */; };
-		8B31893A28E3C07800C80888 /* CYP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889028E3C07800C80888 /* CYP.pdf */; };
-		8B31893B28E3C07800C80888 /* MLI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889128E3C07800C80888 /* MLI.pdf */; };
-		8B31893C28E3C07800C80888 /* TCD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889228E3C07800C80888 /* TCD.pdf */; };
-		8B31893D28E3C07800C80888 /* OMN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889328E3C07800C80888 /* OMN.pdf */; };
-		8B31893E28E3C07800C80888 /* IND.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889428E3C07800C80888 /* IND.pdf */; };
-		8B31893F28E3C07800C80888 /* NER.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889528E3C07800C80888 /* NER.pdf */; };
-		8B31894028E3C07800C80888 /* BRA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889628E3C07800C80888 /* BRA.pdf */; };
-		8B31894128E3C07800C80888 /* KAZ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889728E3C07800C80888 /* KAZ.pdf */; };
-		8B31894228E3C07800C80888 /* BGD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889828E3C07800C80888 /* BGD.pdf */; };
-		8B31894328E3C07800C80888 /* BEL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889928E3C07800C80888 /* BEL.pdf */; };
-		8B31894428E3C07800C80888 /* FRA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889A28E3C07800C80888 /* FRA.pdf */; };
-		8B31894528E3C07800C80888 /* AUT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889B28E3C07800C80888 /* AUT.pdf */; };
-		8B31894628E3C07800C80888 /* MNE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889C28E3C07800C80888 /* MNE.pdf */; };
-		8B31894728E3C07800C80888 /* NIC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889D28E3C07800C80888 /* NIC.pdf */; };
-		8B31894828E3C07800C80888 /* LSO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889E28E3C07800C80888 /* LSO.pdf */; };
-		8B31894928E3C07800C80888 /* GMB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31889F28E3C07800C80888 /* GMB.pdf */; };
-		8B31894A28E3C07800C80888 /* YEM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A028E3C07800C80888 /* YEM.pdf */; };
-		8B31894B28E3C07800C80888 /* BDI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A128E3C07800C80888 /* BDI.pdf */; };
-		8B31894C28E3C07800C80888 /* BGR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A228E3C07800C80888 /* BGR.pdf */; };
-		8B31894D28E3C07800C80888 /* BFA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A328E3C07800C80888 /* BFA.pdf */; };
-		8B31894E28E3C07800C80888 /* GUF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A428E3C07800C80888 /* GUF.pdf */; };
-		8B31894F28E3C07800C80888 /* KOR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A528E3C07800C80888 /* KOR.pdf */; };
-		8B31895028E3C07800C80888 /* RWA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A628E3C07800C80888 /* RWA.pdf */; };
-		8B31895128E3C07800C80888 /* KWT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A728E3C07800C80888 /* KWT.pdf */; };
-		8B31895228E3C07800C80888 /* PAN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A828E3C07800C80888 /* PAN.pdf */; };
-		8B31895328E3C07800C80888 /* ALB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188A928E3C07800C80888 /* ALB.pdf */; };
-		8B31895428E3C07800C80888 /* CUB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188AA28E3C07800C80888 /* CUB.pdf */; };
-		8B31895528E3C07800C80888 /* COL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188AB28E3C07800C80888 /* COL.pdf */; };
-		8B31895628E3C07800C80888 /* MNG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188AC28E3C07800C80888 /* MNG.pdf */; };
-		8B31895728E3C07800C80888 /* CAF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188AD28E3C07800C80888 /* CAF.pdf */; };
-		8B31895828E3C07800C80888 /* CMR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188AE28E3C07800C80888 /* CMR.pdf */; };
-		8B31895928E3C07800C80888 /* TUN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188AF28E3C07800C80888 /* TUN.pdf */; };
-		8B31895A28E3C07800C80888 /* GAB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B028E3C07800C80888 /* GAB.pdf */; };
-		8B31895B28E3C07800C80888 /* BEN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B128E3C07800C80888 /* BEN.pdf */; };
-		8B31895C28E3C07800C80888 /* PRI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B228E3C07800C80888 /* PRI.pdf */; };
-		8B31895D28E3C07800C80888 /* GIN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B328E3C07800C80888 /* GIN.pdf */; };
-		8B31895E28E3C07800C80888 /* AFG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B428E3C07800C80888 /* AFG.pdf */; };
-		8B31895F28E3C07800C80888 /* CHN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B528E3C07800C80888 /* CHN.pdf */; };
-		8B31896028E3C07800C80888 /* HUN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B628E3C07800C80888 /* HUN.pdf */; };
-		8B31896128E3C07800C80888 /* DOM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B728E3C07800C80888 /* DOM.pdf */; };
-		8B31896228E3C07800C80888 /* HND.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B828E3C07800C80888 /* HND.pdf */; };
-		8B31896328E3C07800C80888 /* NAM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188B928E3C07800C80888 /* NAM.pdf */; };
-		8B31896428E3C07800C80888 /* EST.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188BA28E3C07800C80888 /* EST.pdf */; };
-		8B31896528E3C07800C80888 /* LAO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188BB28E3C07800C80888 /* LAO.pdf */; };
-		8B31896628E3C07800C80888 /* BLR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188BC28E3C07800C80888 /* BLR.pdf */; };
-		8B31896728E3C07800C80888 /* ISL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188BD28E3C07800C80888 /* ISL.pdf */; };
-		8B31896828E3C07800C80888 /* DNK.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188BE28E3C07800C80888 /* DNK.pdf */; };
-		8B31896928E3C07800C80888 /* MDA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188BF28E3C07800C80888 /* MDA.pdf */; };
-		8B31896A28E3C07800C80888 /* TGO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C028E3C07800C80888 /* TGO.pdf */; };
-		8B31896B28E3C07800C80888 /* HTI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C128E3C07800C80888 /* HTI.pdf */; };
-		8B31896C28E3C07800C80888 /* THA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C228E3C07800C80888 /* THA.pdf */; };
-		8B31896D28E3C07800C80888 /* TKM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C328E3C07800C80888 /* TKM.pdf */; };
-		8B31896E28E3C07800C80888 /* CHL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C428E3C07800C80888 /* CHL.pdf */; };
-		8B31896F28E3C07800C80888 /* SWE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C528E3C07800C80888 /* SWE.pdf */; };
-		8B31897028E3C07800C80888 /* NOR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C628E3C07800C80888 /* NOR.pdf */; };
-		8B31897128E3C07800C80888 /* GEO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C728E3C07800C80888 /* GEO.pdf */; };
-		8B31897228E3C07800C80888 /* PRK.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C828E3C07800C80888 /* PRK.pdf */; };
-		8B31897328E3C07800C80888 /* BOL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188C928E3C07800C80888 /* BOL.pdf */; };
-		8B31897428E3C07800C80888 /* LVA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188CA28E3C07800C80888 /* LVA.pdf */; };
-		8B31897528E3C07800C80888 /* JOR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188CB28E3C07800C80888 /* JOR.pdf */; };
-		8B31897628E3C07800C80888 /* ARE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188CC28E3C07800C80888 /* ARE.pdf */; };
-		8B31897728E3C07800C80888 /* IRL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188CD28E3C07800C80888 /* IRL.pdf */; };
-		8B31897828E3C07800C80888 /* LBR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188CE28E3C07800C80888 /* LBR.pdf */; };
-		8B31897928E3C07800C80888 /* PRY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188CF28E3C07800C80888 /* PRY.pdf */; };
-		8B31897A28E3C07800C80888 /* GRC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D028E3C07800C80888 /* GRC.pdf */; };
-		8B31897B28E3C07800C80888 /* IRN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D128E3C07800C80888 /* IRN.pdf */; };
-		8B31897C28E3C07800C80888 /* ESP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D228E3C07800C80888 /* ESP.pdf */; };
-		8B31897D28E3C07800C80888 /* PER.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D328E3C07800C80888 /* PER.pdf */; };
-		8B31897E28E3C07800C80888 /* ARG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D428E3C07800C80888 /* ARG.pdf */; };
-		8B31897F28E3C07800C80888 /* JAM.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D528E3C07800C80888 /* JAM.pdf */; };
-		8B31898028E3C07800C80888 /* DMA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D628E3C07800C80888 /* DMA.pdf */; };
-		8B31898128E3C07800C80888 /* MDG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D728E3C07800C80888 /* MDG.pdf */; };
-		8B31898228E3C07800C80888 /* LUX.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D828E3C07800C80888 /* LUX.pdf */; };
-		8B31898328E3C07800C80888 /* UZB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3188D928E3C07800C80888 /* UZB.pdf */; };
 		8B31898528E3C0BA00C80888 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31898428E3C0BA00C80888 /* Image.swift */; };
 		8B31898828E3C58300C80888 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31898728E3C58300C80888 /* CountryDetailViewController.swift */; };
 		8B32DD2828E279B400F4D978 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32DD2728E279B400F4D978 /* TabBarViewController.swift */; };
 		8B32DD3228E27A3C00F4D978 /* BLEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32DD3128E27A3C00F4D978 /* BLEViewController.swift */; };
 		8B32DD3428E27A5000F4D978 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32DD3328E27A5000F4D978 /* CountriesViewController.swift */; };
+		8B6488D828E5F20500EC0415 /* CountryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488D728E5F20500EC0415 /* CountryDetailModel.swift */; };
+		8B6488DA28E5F21B00EC0415 /* CountryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488D928E5F21B00EC0415 /* CountryDetailViewModel.swift */; };
+		8B6488DC28E60A9000EC0415 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488DB28E60A9000EC0415 /* Messages.swift */; };
+		8B6488DE28E611D800EC0415 /* BLEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488DD28E611D800EC0415 /* BLEViewModel.swift */; };
 		8B7AC6C228E271A7001BA1CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6C128E271A7001BA1CF /* AppDelegate.swift */; };
 		8B7AC6C428E271A7001BA1CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6C328E271A7001BA1CF /* SceneDelegate.swift */; };
 		8B7AC6C928E271A7001BA1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AC6C728E271A7001BA1CF /* Main.storyboard */; };
@@ -200,17 +34,8 @@
 		8B7AC6E528E2724C001BA1CF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6E428E2724C001BA1CF /* Colors.swift */; };
 		8BD7A46B28E501F20032E33D /* FlagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46A28E501F20032E33D /* FlagCollectionViewCell.swift */; };
 		8BD7A46D28E502740032E33D /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46C28E502740032E33D /* UIViewController+extension.swift */; };
+		8BD7A47028E561DF0032E33D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46F28E561DF0032E33D /* DataManager.swift */; };
 		8BFD2C3E28E4CDB300EDDF18 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD2C3D28E4CDB300EDDF18 /* UIView+Extension.swift */; };
-		8BFD2C4C28E4E14500EDDF18 /* PhoneCode.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4228E4E14500EDDF18 /* PhoneCode.pdf */; };
-		8BFD2C4D28E4E14500EDDF18 /* Icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4328E4E14500EDDF18 /* Icon.pdf */; };
-		8BFD2C4E28E4E14500EDDF18 /* Languages.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4428E4E14500EDDF18 /* Languages.pdf */; };
-		8BFD2C4F28E4E14500EDDF18 /* CountriesOn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4528E4E14500EDDF18 /* CountriesOn.pdf */; };
-		8BFD2C5028E4E14500EDDF18 /* Population.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4628E4E14500EDDF18 /* Population.pdf */; };
-		8BFD2C5128E4E14500EDDF18 /* CountriesOff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4728E4E14500EDDF18 /* CountriesOff.pdf */; };
-		8BFD2C5228E4E14500EDDF18 /* BLEOn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4828E4E14500EDDF18 /* BLEOn.pdf */; };
-		8BFD2C5328E4E14500EDDF18 /* BLEOff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4928E4E14500EDDF18 /* BLEOff.pdf */; };
-		8BFD2C5428E4E14500EDDF18 /* Timezones.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4A28E4E14500EDDF18 /* Timezones.pdf */; };
-		8BFD2C5528E4E14500EDDF18 /* Currency.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD2C4B28E4E14500EDDF18 /* Currency.pdf */; };
 		8BFD2C5828E4E5DE00EDDF18 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD2C5728E4E5DE00EDDF18 /* UIImageView+extension.swift */; };
 		A976C5B80B21F4A0E55B0E7F /* Pods_Bridgefy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDE433FC631BAC15E6552A /* Pods_Bridgefy.framework */; };
 /* End PBXBuildFile section */
@@ -225,181 +50,15 @@
 		8B2EA48B28E387CB00A866C9 /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
 		8B2EA48E28E398F600A866C9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		8B31882A28E3B8EC00C80888 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
-		8B31883028E3C07800C80888 /* EGY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = EGY.pdf; sourceTree = "<group>"; };
-		8B31883128E3C07800C80888 /* CRI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CRI.pdf; sourceTree = "<group>"; };
-		8B31883228E3C07800C80888 /* SYR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SYR.pdf; sourceTree = "<group>"; };
-		8B31883328E3C07800C80888 /* MEX.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MEX.pdf; sourceTree = "<group>"; };
-		8B31883428E3C07800C80888 /* MKD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MKD.pdf; sourceTree = "<group>"; };
-		8B31883528E3C07800C80888 /* SAU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SAU.pdf; sourceTree = "<group>"; };
-		8B31883628E3C07800C80888 /* SLE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SLE.pdf; sourceTree = "<group>"; };
-		8B31883728E3C07800C80888 /* VEN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = VEN.pdf; sourceTree = "<group>"; };
-		8B31883828E3C07800C80888 /* SVK.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SVK.pdf; sourceTree = "<group>"; };
-		8B31883928E3C07800C80888 /* NCL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NCL.pdf; sourceTree = "<group>"; };
-		8B31883A28E3C07800C80888 /* IDN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IDN.pdf; sourceTree = "<group>"; };
-		8B31883B28E3C07800C80888 /* PSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PSE.pdf; sourceTree = "<group>"; };
-		8B31883C28E3C07800C80888 /* GRL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GRL.pdf; sourceTree = "<group>"; };
-		8B31883D28E3C07800C80888 /* PRT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PRT.pdf; sourceTree = "<group>"; };
-		8B31883E28E3C07800C80888 /* NZL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NZL.pdf; sourceTree = "<group>"; };
-		8B31883F28E3C07800C80888 /* KHM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KHM.pdf; sourceTree = "<group>"; };
-		8B31884028E3C07800C80888 /* ISR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ISR.pdf; sourceTree = "<group>"; };
-		8B31884128E3C07800C80888 /* ESH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ESH.pdf; sourceTree = "<group>"; };
-		8B31884228E3C07800C80888 /* SUR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SUR.pdf; sourceTree = "<group>"; };
-		8B31884328E3C07800C80888 /* SWZ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SWZ.pdf; sourceTree = "<group>"; };
-		8B31884428E3C07800C80888 /* CHE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CHE.pdf; sourceTree = "<group>"; };
-		8B31884528E3C07800C80888 /* ASM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ASM.pdf; sourceTree = "<group>"; };
-		8B31884628E3C07800C80888 /* CIV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CIV.pdf; sourceTree = "<group>"; };
-		8B31884728E3C07800C80888 /* QAT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = QAT.pdf; sourceTree = "<group>"; };
-		8B31884828E3C07800C80888 /* GHA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GHA.pdf; sourceTree = "<group>"; };
-		8B31884928E3C07800C80888 /* PHL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PHL.pdf; sourceTree = "<group>"; };
-		8B31884A28E3C07800C80888 /* BLZ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLZ.pdf; sourceTree = "<group>"; };
-		8B31884B28E3C07800C80888 /* ERI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ERI.pdf; sourceTree = "<group>"; };
-		8B31884C28E3C07800C80888 /* NLD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NLD.pdf; sourceTree = "<group>"; };
-		8B31884D28E3C07800C80888 /* SLB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SLB.pdf; sourceTree = "<group>"; };
-		8B31884E28E3C07800C80888 /* ARM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ARM.pdf; sourceTree = "<group>"; };
-		8B31884F28E3C07800C80888 /* BTN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BTN.pdf; sourceTree = "<group>"; };
-		8B31885028E3C07800C80888 /* KEN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KEN.pdf; sourceTree = "<group>"; };
-		8B31885128E3C07800C80888 /* LBN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LBN.pdf; sourceTree = "<group>"; };
-		8B31885228E3C07800C80888 /* LBY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LBY.pdf; sourceTree = "<group>"; };
-		8B31885328E3C07800C80888 /* STP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = STP.pdf; sourceTree = "<group>"; };
-		8B31885428E3C07800C80888 /* DZA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DZA.pdf; sourceTree = "<group>"; };
-		8B31885528E3C07800C80888 /* MRT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MRT.pdf; sourceTree = "<group>"; };
-		8B31885628E3C07800C80888 /* AGO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AGO.pdf; sourceTree = "<group>"; };
-		8B31885728E3C07800C80888 /* SOM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SOM.pdf; sourceTree = "<group>"; };
-		8B31885828E3C07800C80888 /* SLV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SLV.pdf; sourceTree = "<group>"; };
-		8B31885928E3C07800C80888 /* SVN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SVN.pdf; sourceTree = "<group>"; };
-		8B31885A28E3C07800C80888 /* LTU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LTU.pdf; sourceTree = "<group>"; };
-		8B31885B28E3C07800C80888 /* BWA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BWA.pdf; sourceTree = "<group>"; };
-		8B31885C28E3C07800C80888 /* IRQ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IRQ.pdf; sourceTree = "<group>"; };
-		8B31885D28E3C07800C80888 /* UKR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UKR.pdf; sourceTree = "<group>"; };
-		8B31885E28E3C07800C80888 /* ITA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ITA.pdf; sourceTree = "<group>"; };
-		8B31885F28E3C07800C80888 /* MWI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MWI.pdf; sourceTree = "<group>"; };
-		8B31886028E3C07800C80888 /* HRV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HRV.pdf; sourceTree = "<group>"; };
-		8B31886128E3C07800C80888 /* MAR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MAR.pdf; sourceTree = "<group>"; };
-		8B31886228E3C07800C80888 /* ZWE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZWE.pdf; sourceTree = "<group>"; };
-		8B31886328E3C07800C80888 /* SSD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SSD.pdf; sourceTree = "<group>"; };
-		8B31886428E3C07800C80888 /* RUS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RUS.pdf; sourceTree = "<group>"; };
-		8B31886528E3C07800C80888 /* GTM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GTM.pdf; sourceTree = "<group>"; };
-		8B31886628E3C07800C80888 /* NPL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NPL.pdf; sourceTree = "<group>"; };
-		8B31886728E3C07800C80888 /* SRB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SRB.pdf; sourceTree = "<group>"; };
-		8B31886828E3C07800C80888 /* MTQ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MTQ.pdf; sourceTree = "<group>"; };
-		8B31886928E3C07800C80888 /* DJI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DJI.pdf; sourceTree = "<group>"; };
-		8B31886A28E3C07800C80888 /* MMR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MMR.pdf; sourceTree = "<group>"; };
-		8B31886B28E3C07800C80888 /* SDN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SDN.pdf; sourceTree = "<group>"; };
-		8B31886C28E3C07800C80888 /* MOZ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MOZ.pdf; sourceTree = "<group>"; };
-		8B31886D28E3C07800C80888 /* GNB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GNB.pdf; sourceTree = "<group>"; };
-		8B31886E28E3C07800C80888 /* USA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = USA.pdf; sourceTree = "<group>"; };
-		8B31886F28E3C07800C80888 /* LKA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LKA.pdf; sourceTree = "<group>"; };
-		8B31887028E3C07800C80888 /* GNQ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GNQ.pdf; sourceTree = "<group>"; };
-		8B31887128E3C07800C80888 /* GBR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GBR.pdf; sourceTree = "<group>"; };
-		8B31887228E3C07800C80888 /* MYS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MYS.pdf; sourceTree = "<group>"; };
-		8B31887328E3C07800C80888 /* TUR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TUR.pdf; sourceTree = "<group>"; };
-		8B31887428E3C07800C80888 /* VNM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = VNM.pdf; sourceTree = "<group>"; };
-		8B31887528E3C07800C80888 /* AZE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AZE.pdf; sourceTree = "<group>"; };
-		8B31887628E3C07800C80888 /* SEN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SEN.pdf; sourceTree = "<group>"; };
-		8B31887728E3C07800C80888 /* DEU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DEU.pdf; sourceTree = "<group>"; };
-		8B31887828E3C07800C80888 /* COG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = COG.pdf; sourceTree = "<group>"; };
-		8B31887928E3C07800C80888 /* NGA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NGA.pdf; sourceTree = "<group>"; };
-		8B31887A28E3C07800C80888 /* ECU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ECU.pdf; sourceTree = "<group>"; };
-		8B31887B28E3C07800C80888 /* UGA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UGA.pdf; sourceTree = "<group>"; };
-		8B31887C28E3C07800C80888 /* NRU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NRU.pdf; sourceTree = "<group>"; };
-		8B31887D28E3C07800C80888 /* POL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = POL.pdf; sourceTree = "<group>"; };
-		8B31887E28E3C07800C80888 /* PLW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PLW.pdf; sourceTree = "<group>"; };
-		8B31887F28E3C07800C80888 /* TWN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TWN.pdf; sourceTree = "<group>"; };
-		8B31888028E3C07800C80888 /* JPN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JPN.pdf; sourceTree = "<group>"; };
-		8B31888128E3C07800C80888 /* TLS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TLS.pdf; sourceTree = "<group>"; };
-		8B31888228E3C07800C80888 /* CAN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CAN.pdf; sourceTree = "<group>"; };
-		8B31888328E3C07800C80888 /* CZE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CZE.pdf; sourceTree = "<group>"; };
-		8B31888428E3C07800C80888 /* BRN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BRN.pdf; sourceTree = "<group>"; };
-		8B31888528E3C07800C80888 /* ETH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ETH.pdf; sourceTree = "<group>"; };
-		8B31888628E3C07800C80888 /* GUY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GUY.pdf; sourceTree = "<group>"; };
-		8B31888728E3C07800C80888 /* ROU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ROU.pdf; sourceTree = "<group>"; };
-		8B31888828E3C07800C80888 /* URY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = URY.pdf; sourceTree = "<group>"; };
-		8B31888928E3C07800C80888 /* PAK.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PAK.pdf; sourceTree = "<group>"; };
-		8B31888A28E3C07800C80888 /* ZMB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZMB.pdf; sourceTree = "<group>"; };
-		8B31888B28E3C07800C80888 /* AUS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AUS.pdf; sourceTree = "<group>"; };
-		8B31888C28E3C07800C80888 /* TTO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TTO.pdf; sourceTree = "<group>"; };
-		8B31888D28E3C07800C80888 /* BIH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BIH.pdf; sourceTree = "<group>"; };
-		8B31888E28E3C07800C80888 /* PNG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PNG.pdf; sourceTree = "<group>"; };
-		8B31888F28E3C07800C80888 /* FIN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FIN.pdf; sourceTree = "<group>"; };
-		8B31889028E3C07800C80888 /* CYP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CYP.pdf; sourceTree = "<group>"; };
-		8B31889128E3C07800C80888 /* MLI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MLI.pdf; sourceTree = "<group>"; };
-		8B31889228E3C07800C80888 /* TCD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TCD.pdf; sourceTree = "<group>"; };
-		8B31889328E3C07800C80888 /* OMN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = OMN.pdf; sourceTree = "<group>"; };
-		8B31889428E3C07800C80888 /* IND.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IND.pdf; sourceTree = "<group>"; };
-		8B31889528E3C07800C80888 /* NER.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NER.pdf; sourceTree = "<group>"; };
-		8B31889628E3C07800C80888 /* BRA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BRA.pdf; sourceTree = "<group>"; };
-		8B31889728E3C07800C80888 /* KAZ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KAZ.pdf; sourceTree = "<group>"; };
-		8B31889828E3C07800C80888 /* BGD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BGD.pdf; sourceTree = "<group>"; };
-		8B31889928E3C07800C80888 /* BEL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BEL.pdf; sourceTree = "<group>"; };
-		8B31889A28E3C07800C80888 /* FRA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FRA.pdf; sourceTree = "<group>"; };
-		8B31889B28E3C07800C80888 /* AUT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AUT.pdf; sourceTree = "<group>"; };
-		8B31889C28E3C07800C80888 /* MNE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MNE.pdf; sourceTree = "<group>"; };
-		8B31889D28E3C07800C80888 /* NIC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NIC.pdf; sourceTree = "<group>"; };
-		8B31889E28E3C07800C80888 /* LSO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LSO.pdf; sourceTree = "<group>"; };
-		8B31889F28E3C07800C80888 /* GMB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GMB.pdf; sourceTree = "<group>"; };
-		8B3188A028E3C07800C80888 /* YEM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = YEM.pdf; sourceTree = "<group>"; };
-		8B3188A128E3C07800C80888 /* BDI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BDI.pdf; sourceTree = "<group>"; };
-		8B3188A228E3C07800C80888 /* BGR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BGR.pdf; sourceTree = "<group>"; };
-		8B3188A328E3C07800C80888 /* BFA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BFA.pdf; sourceTree = "<group>"; };
-		8B3188A428E3C07800C80888 /* GUF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GUF.pdf; sourceTree = "<group>"; };
-		8B3188A528E3C07800C80888 /* KOR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KOR.pdf; sourceTree = "<group>"; };
-		8B3188A628E3C07800C80888 /* RWA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RWA.pdf; sourceTree = "<group>"; };
-		8B3188A728E3C07800C80888 /* KWT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KWT.pdf; sourceTree = "<group>"; };
-		8B3188A828E3C07800C80888 /* PAN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PAN.pdf; sourceTree = "<group>"; };
-		8B3188A928E3C07800C80888 /* ALB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ALB.pdf; sourceTree = "<group>"; };
-		8B3188AA28E3C07800C80888 /* CUB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CUB.pdf; sourceTree = "<group>"; };
-		8B3188AB28E3C07800C80888 /* COL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = COL.pdf; sourceTree = "<group>"; };
-		8B3188AC28E3C07800C80888 /* MNG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MNG.pdf; sourceTree = "<group>"; };
-		8B3188AD28E3C07800C80888 /* CAF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CAF.pdf; sourceTree = "<group>"; };
-		8B3188AE28E3C07800C80888 /* CMR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CMR.pdf; sourceTree = "<group>"; };
-		8B3188AF28E3C07800C80888 /* TUN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TUN.pdf; sourceTree = "<group>"; };
-		8B3188B028E3C07800C80888 /* GAB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GAB.pdf; sourceTree = "<group>"; };
-		8B3188B128E3C07800C80888 /* BEN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BEN.pdf; sourceTree = "<group>"; };
-		8B3188B228E3C07800C80888 /* PRI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PRI.pdf; sourceTree = "<group>"; };
-		8B3188B328E3C07800C80888 /* GIN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GIN.pdf; sourceTree = "<group>"; };
-		8B3188B428E3C07800C80888 /* AFG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AFG.pdf; sourceTree = "<group>"; };
-		8B3188B528E3C07800C80888 /* CHN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CHN.pdf; sourceTree = "<group>"; };
-		8B3188B628E3C07800C80888 /* HUN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HUN.pdf; sourceTree = "<group>"; };
-		8B3188B728E3C07800C80888 /* DOM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DOM.pdf; sourceTree = "<group>"; };
-		8B3188B828E3C07800C80888 /* HND.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HND.pdf; sourceTree = "<group>"; };
-		8B3188B928E3C07800C80888 /* NAM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NAM.pdf; sourceTree = "<group>"; };
-		8B3188BA28E3C07800C80888 /* EST.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = EST.pdf; sourceTree = "<group>"; };
-		8B3188BB28E3C07800C80888 /* LAO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LAO.pdf; sourceTree = "<group>"; };
-		8B3188BC28E3C07800C80888 /* BLR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLR.pdf; sourceTree = "<group>"; };
-		8B3188BD28E3C07800C80888 /* ISL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ISL.pdf; sourceTree = "<group>"; };
-		8B3188BE28E3C07800C80888 /* DNK.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DNK.pdf; sourceTree = "<group>"; };
-		8B3188BF28E3C07800C80888 /* MDA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MDA.pdf; sourceTree = "<group>"; };
-		8B3188C028E3C07800C80888 /* TGO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TGO.pdf; sourceTree = "<group>"; };
-		8B3188C128E3C07800C80888 /* HTI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HTI.pdf; sourceTree = "<group>"; };
-		8B3188C228E3C07800C80888 /* THA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = THA.pdf; sourceTree = "<group>"; };
-		8B3188C328E3C07800C80888 /* TKM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TKM.pdf; sourceTree = "<group>"; };
-		8B3188C428E3C07800C80888 /* CHL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CHL.pdf; sourceTree = "<group>"; };
-		8B3188C528E3C07800C80888 /* SWE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SWE.pdf; sourceTree = "<group>"; };
-		8B3188C628E3C07800C80888 /* NOR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NOR.pdf; sourceTree = "<group>"; };
-		8B3188C728E3C07800C80888 /* GEO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GEO.pdf; sourceTree = "<group>"; };
-		8B3188C828E3C07800C80888 /* PRK.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PRK.pdf; sourceTree = "<group>"; };
-		8B3188C928E3C07800C80888 /* BOL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BOL.pdf; sourceTree = "<group>"; };
-		8B3188CA28E3C07800C80888 /* LVA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LVA.pdf; sourceTree = "<group>"; };
-		8B3188CB28E3C07800C80888 /* JOR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JOR.pdf; sourceTree = "<group>"; };
-		8B3188CC28E3C07800C80888 /* ARE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ARE.pdf; sourceTree = "<group>"; };
-		8B3188CD28E3C07800C80888 /* IRL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IRL.pdf; sourceTree = "<group>"; };
-		8B3188CE28E3C07800C80888 /* LBR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LBR.pdf; sourceTree = "<group>"; };
-		8B3188CF28E3C07800C80888 /* PRY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PRY.pdf; sourceTree = "<group>"; };
-		8B3188D028E3C07800C80888 /* GRC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GRC.pdf; sourceTree = "<group>"; };
-		8B3188D128E3C07800C80888 /* IRN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IRN.pdf; sourceTree = "<group>"; };
-		8B3188D228E3C07800C80888 /* ESP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ESP.pdf; sourceTree = "<group>"; };
-		8B3188D328E3C07800C80888 /* PER.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PER.pdf; sourceTree = "<group>"; };
-		8B3188D428E3C07800C80888 /* ARG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ARG.pdf; sourceTree = "<group>"; };
-		8B3188D528E3C07800C80888 /* JAM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JAM.pdf; sourceTree = "<group>"; };
-		8B3188D628E3C07800C80888 /* DMA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DMA.pdf; sourceTree = "<group>"; };
-		8B3188D728E3C07800C80888 /* MDG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MDG.pdf; sourceTree = "<group>"; };
-		8B3188D828E3C07800C80888 /* LUX.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LUX.pdf; sourceTree = "<group>"; };
-		8B3188D928E3C07800C80888 /* UZB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UZB.pdf; sourceTree = "<group>"; };
 		8B31898428E3C0BA00C80888 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		8B31898728E3C58300C80888 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 		8B32DD2728E279B400F4D978 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		8B32DD3128E27A3C00F4D978 /* BLEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewController.swift; sourceTree = "<group>"; };
 		8B32DD3328E27A5000F4D978 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		8B6488D728E5F20500EC0415 /* CountryDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailModel.swift; sourceTree = "<group>"; };
+		8B6488D928E5F21B00EC0415 /* CountryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewModel.swift; sourceTree = "<group>"; };
+		8B6488DB28E60A9000EC0415 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		8B6488DD28E611D800EC0415 /* BLEViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewModel.swift; sourceTree = "<group>"; };
 		8B7AC6BE28E271A7001BA1CF /* Bridgefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridgefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7AC6C128E271A7001BA1CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B7AC6C328E271A7001BA1CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -414,17 +73,8 @@
 		8B7AC6E428E2724C001BA1CF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		8BD7A46A28E501F20032E33D /* FlagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BD7A46C28E502740032E33D /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		8BD7A46F28E561DF0032E33D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8BFD2C3D28E4CDB300EDDF18 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		8BFD2C4228E4E14500EDDF18 /* PhoneCode.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PhoneCode.pdf; sourceTree = "<group>"; };
-		8BFD2C4328E4E14500EDDF18 /* Icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Icon.pdf; sourceTree = "<group>"; };
-		8BFD2C4428E4E14500EDDF18 /* Languages.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Languages.pdf; sourceTree = "<group>"; };
-		8BFD2C4528E4E14500EDDF18 /* CountriesOn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CountriesOn.pdf; sourceTree = "<group>"; };
-		8BFD2C4628E4E14500EDDF18 /* Population.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Population.pdf; sourceTree = "<group>"; };
-		8BFD2C4728E4E14500EDDF18 /* CountriesOff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CountriesOff.pdf; sourceTree = "<group>"; };
-		8BFD2C4828E4E14500EDDF18 /* BLEOn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLEOn.pdf; sourceTree = "<group>"; };
-		8BFD2C4928E4E14500EDDF18 /* BLEOff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLEOff.pdf; sourceTree = "<group>"; };
-		8BFD2C4A28E4E14500EDDF18 /* Timezones.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Timezones.pdf; sourceTree = "<group>"; };
-		8BFD2C4B28E4E14500EDDF18 /* Currency.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Currency.pdf; sourceTree = "<group>"; };
 		8BFD2C5728E4E5DE00EDDF18 /* UIImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -469,7 +119,6 @@
 		8B31882C28E3C02E00C80888 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				8B31882E28E3C05B00C80888 /* Countries */,
 				8B31882D28E3C05400C80888 /* Base */,
 				8B7AC6CD28E271A8001BA1CF /* Assets.xcassets */,
 				8B7AC6E228E2723B001BA1CF /* Colors.xcassets */,
@@ -486,195 +135,11 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		8B31882E28E3C05B00C80888 /* Countries */ = {
-			isa = PBXGroup;
-			children = (
-				8BFD2C4128E4E14500EDDF18 /* Images */,
-				8B31882F28E3C07800C80888 /* Maps */,
-			);
-			path = Countries;
-			sourceTree = "<group>";
-		};
-		8B31882F28E3C07800C80888 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				8B31883028E3C07800C80888 /* EGY.pdf */,
-				8B31883128E3C07800C80888 /* CRI.pdf */,
-				8B31883228E3C07800C80888 /* SYR.pdf */,
-				8B31883328E3C07800C80888 /* MEX.pdf */,
-				8B31883428E3C07800C80888 /* MKD.pdf */,
-				8B31883528E3C07800C80888 /* SAU.pdf */,
-				8B31883628E3C07800C80888 /* SLE.pdf */,
-				8B31883728E3C07800C80888 /* VEN.pdf */,
-				8B31883828E3C07800C80888 /* SVK.pdf */,
-				8B31883928E3C07800C80888 /* NCL.pdf */,
-				8B31883A28E3C07800C80888 /* IDN.pdf */,
-				8B31883B28E3C07800C80888 /* PSE.pdf */,
-				8B31883C28E3C07800C80888 /* GRL.pdf */,
-				8B31883D28E3C07800C80888 /* PRT.pdf */,
-				8B31883E28E3C07800C80888 /* NZL.pdf */,
-				8B31883F28E3C07800C80888 /* KHM.pdf */,
-				8B31884028E3C07800C80888 /* ISR.pdf */,
-				8B31884128E3C07800C80888 /* ESH.pdf */,
-				8B31884228E3C07800C80888 /* SUR.pdf */,
-				8B31884328E3C07800C80888 /* SWZ.pdf */,
-				8B31884428E3C07800C80888 /* CHE.pdf */,
-				8B31884528E3C07800C80888 /* ASM.pdf */,
-				8B31884628E3C07800C80888 /* CIV.pdf */,
-				8B31884728E3C07800C80888 /* QAT.pdf */,
-				8B31884828E3C07800C80888 /* GHA.pdf */,
-				8B31884928E3C07800C80888 /* PHL.pdf */,
-				8B31884A28E3C07800C80888 /* BLZ.pdf */,
-				8B31884B28E3C07800C80888 /* ERI.pdf */,
-				8B31884C28E3C07800C80888 /* NLD.pdf */,
-				8B31884D28E3C07800C80888 /* SLB.pdf */,
-				8B31884E28E3C07800C80888 /* ARM.pdf */,
-				8B31884F28E3C07800C80888 /* BTN.pdf */,
-				8B31885028E3C07800C80888 /* KEN.pdf */,
-				8B31885128E3C07800C80888 /* LBN.pdf */,
-				8B31885228E3C07800C80888 /* LBY.pdf */,
-				8B31885328E3C07800C80888 /* STP.pdf */,
-				8B31885428E3C07800C80888 /* DZA.pdf */,
-				8B31885528E3C07800C80888 /* MRT.pdf */,
-				8B31885628E3C07800C80888 /* AGO.pdf */,
-				8B31885728E3C07800C80888 /* SOM.pdf */,
-				8B31885828E3C07800C80888 /* SLV.pdf */,
-				8B31885928E3C07800C80888 /* SVN.pdf */,
-				8B31885A28E3C07800C80888 /* LTU.pdf */,
-				8B31885B28E3C07800C80888 /* BWA.pdf */,
-				8B31885C28E3C07800C80888 /* IRQ.pdf */,
-				8B31885D28E3C07800C80888 /* UKR.pdf */,
-				8B31885E28E3C07800C80888 /* ITA.pdf */,
-				8B31885F28E3C07800C80888 /* MWI.pdf */,
-				8B31886028E3C07800C80888 /* HRV.pdf */,
-				8B31886128E3C07800C80888 /* MAR.pdf */,
-				8B31886228E3C07800C80888 /* ZWE.pdf */,
-				8B31886328E3C07800C80888 /* SSD.pdf */,
-				8B31886428E3C07800C80888 /* RUS.pdf */,
-				8B31886528E3C07800C80888 /* GTM.pdf */,
-				8B31886628E3C07800C80888 /* NPL.pdf */,
-				8B31886728E3C07800C80888 /* SRB.pdf */,
-				8B31886828E3C07800C80888 /* MTQ.pdf */,
-				8B31886928E3C07800C80888 /* DJI.pdf */,
-				8B31886A28E3C07800C80888 /* MMR.pdf */,
-				8B31886B28E3C07800C80888 /* SDN.pdf */,
-				8B31886C28E3C07800C80888 /* MOZ.pdf */,
-				8B31886D28E3C07800C80888 /* GNB.pdf */,
-				8B31886E28E3C07800C80888 /* USA.pdf */,
-				8B31886F28E3C07800C80888 /* LKA.pdf */,
-				8B31887028E3C07800C80888 /* GNQ.pdf */,
-				8B31887128E3C07800C80888 /* GBR.pdf */,
-				8B31887228E3C07800C80888 /* MYS.pdf */,
-				8B31887328E3C07800C80888 /* TUR.pdf */,
-				8B31887428E3C07800C80888 /* VNM.pdf */,
-				8B31887528E3C07800C80888 /* AZE.pdf */,
-				8B31887628E3C07800C80888 /* SEN.pdf */,
-				8B31887728E3C07800C80888 /* DEU.pdf */,
-				8B31887828E3C07800C80888 /* COG.pdf */,
-				8B31887928E3C07800C80888 /* NGA.pdf */,
-				8B31887A28E3C07800C80888 /* ECU.pdf */,
-				8B31887B28E3C07800C80888 /* UGA.pdf */,
-				8B31887C28E3C07800C80888 /* NRU.pdf */,
-				8B31887D28E3C07800C80888 /* POL.pdf */,
-				8B31887E28E3C07800C80888 /* PLW.pdf */,
-				8B31887F28E3C07800C80888 /* TWN.pdf */,
-				8B31888028E3C07800C80888 /* JPN.pdf */,
-				8B31888128E3C07800C80888 /* TLS.pdf */,
-				8B31888228E3C07800C80888 /* CAN.pdf */,
-				8B31888328E3C07800C80888 /* CZE.pdf */,
-				8B31888428E3C07800C80888 /* BRN.pdf */,
-				8B31888528E3C07800C80888 /* ETH.pdf */,
-				8B31888628E3C07800C80888 /* GUY.pdf */,
-				8B31888728E3C07800C80888 /* ROU.pdf */,
-				8B31888828E3C07800C80888 /* URY.pdf */,
-				8B31888928E3C07800C80888 /* PAK.pdf */,
-				8B31888A28E3C07800C80888 /* ZMB.pdf */,
-				8B31888B28E3C07800C80888 /* AUS.pdf */,
-				8B31888C28E3C07800C80888 /* TTO.pdf */,
-				8B31888D28E3C07800C80888 /* BIH.pdf */,
-				8B31888E28E3C07800C80888 /* PNG.pdf */,
-				8B31888F28E3C07800C80888 /* FIN.pdf */,
-				8B31889028E3C07800C80888 /* CYP.pdf */,
-				8B31889128E3C07800C80888 /* MLI.pdf */,
-				8B31889228E3C07800C80888 /* TCD.pdf */,
-				8B31889328E3C07800C80888 /* OMN.pdf */,
-				8B31889428E3C07800C80888 /* IND.pdf */,
-				8B31889528E3C07800C80888 /* NER.pdf */,
-				8B31889628E3C07800C80888 /* BRA.pdf */,
-				8B31889728E3C07800C80888 /* KAZ.pdf */,
-				8B31889828E3C07800C80888 /* BGD.pdf */,
-				8B31889928E3C07800C80888 /* BEL.pdf */,
-				8B31889A28E3C07800C80888 /* FRA.pdf */,
-				8B31889B28E3C07800C80888 /* AUT.pdf */,
-				8B31889C28E3C07800C80888 /* MNE.pdf */,
-				8B31889D28E3C07800C80888 /* NIC.pdf */,
-				8B31889E28E3C07800C80888 /* LSO.pdf */,
-				8B31889F28E3C07800C80888 /* GMB.pdf */,
-				8B3188A028E3C07800C80888 /* YEM.pdf */,
-				8B3188A128E3C07800C80888 /* BDI.pdf */,
-				8B3188A228E3C07800C80888 /* BGR.pdf */,
-				8B3188A328E3C07800C80888 /* BFA.pdf */,
-				8B3188A428E3C07800C80888 /* GUF.pdf */,
-				8B3188A528E3C07800C80888 /* KOR.pdf */,
-				8B3188A628E3C07800C80888 /* RWA.pdf */,
-				8B3188A728E3C07800C80888 /* KWT.pdf */,
-				8B3188A828E3C07800C80888 /* PAN.pdf */,
-				8B3188A928E3C07800C80888 /* ALB.pdf */,
-				8B3188AA28E3C07800C80888 /* CUB.pdf */,
-				8B3188AB28E3C07800C80888 /* COL.pdf */,
-				8B3188AC28E3C07800C80888 /* MNG.pdf */,
-				8B3188AD28E3C07800C80888 /* CAF.pdf */,
-				8B3188AE28E3C07800C80888 /* CMR.pdf */,
-				8B3188AF28E3C07800C80888 /* TUN.pdf */,
-				8B3188B028E3C07800C80888 /* GAB.pdf */,
-				8B3188B128E3C07800C80888 /* BEN.pdf */,
-				8B3188B228E3C07800C80888 /* PRI.pdf */,
-				8B3188B328E3C07800C80888 /* GIN.pdf */,
-				8B3188B428E3C07800C80888 /* AFG.pdf */,
-				8B3188B528E3C07800C80888 /* CHN.pdf */,
-				8B3188B628E3C07800C80888 /* HUN.pdf */,
-				8B3188B728E3C07800C80888 /* DOM.pdf */,
-				8B3188B828E3C07800C80888 /* HND.pdf */,
-				8B3188B928E3C07800C80888 /* NAM.pdf */,
-				8B3188BA28E3C07800C80888 /* EST.pdf */,
-				8B3188BB28E3C07800C80888 /* LAO.pdf */,
-				8B3188BC28E3C07800C80888 /* BLR.pdf */,
-				8B3188BD28E3C07800C80888 /* ISL.pdf */,
-				8B3188BE28E3C07800C80888 /* DNK.pdf */,
-				8B3188BF28E3C07800C80888 /* MDA.pdf */,
-				8B3188C028E3C07800C80888 /* TGO.pdf */,
-				8B3188C128E3C07800C80888 /* HTI.pdf */,
-				8B3188C228E3C07800C80888 /* THA.pdf */,
-				8B3188C328E3C07800C80888 /* TKM.pdf */,
-				8B3188C428E3C07800C80888 /* CHL.pdf */,
-				8B3188C528E3C07800C80888 /* SWE.pdf */,
-				8B3188C628E3C07800C80888 /* NOR.pdf */,
-				8B3188C728E3C07800C80888 /* GEO.pdf */,
-				8B3188C828E3C07800C80888 /* PRK.pdf */,
-				8B3188C928E3C07800C80888 /* BOL.pdf */,
-				8B3188CA28E3C07800C80888 /* LVA.pdf */,
-				8B3188CB28E3C07800C80888 /* JOR.pdf */,
-				8B3188CC28E3C07800C80888 /* ARE.pdf */,
-				8B3188CD28E3C07800C80888 /* IRL.pdf */,
-				8B3188CE28E3C07800C80888 /* LBR.pdf */,
-				8B3188CF28E3C07800C80888 /* PRY.pdf */,
-				8B3188D028E3C07800C80888 /* GRC.pdf */,
-				8B3188D128E3C07800C80888 /* IRN.pdf */,
-				8B3188D228E3C07800C80888 /* ESP.pdf */,
-				8B3188D328E3C07800C80888 /* PER.pdf */,
-				8B3188D428E3C07800C80888 /* ARG.pdf */,
-				8B3188D528E3C07800C80888 /* JAM.pdf */,
-				8B3188D628E3C07800C80888 /* DMA.pdf */,
-				8B3188D728E3C07800C80888 /* MDG.pdf */,
-				8B3188D828E3C07800C80888 /* LUX.pdf */,
-				8B3188D928E3C07800C80888 /* UZB.pdf */,
-			);
-			path = Maps;
-			sourceTree = "<group>";
-		};
 		8B31898628E3C56400C80888 /* Country detail */ = {
 			isa = PBXGroup;
 			children = (
+				8B6488D628E5F1F700EC0415 /* Model */,
+				8B6488D528E5F1B000EC0415 /* ViewModel */,
 				8B31898928E4ADEF00C80888 /* View */,
 			);
 			path = "Country detail";
@@ -692,7 +157,6 @@
 		8B32DD2628E2799200F4D978 /* Tab bar */ = {
 			isa = PBXGroup;
 			children = (
-				8B31898628E3C56400C80888 /* Country detail */,
 				8B32DD2A28E279E800F4D978 /* BLE */,
 				8B32DD2928E279DE00F4D978 /* Countries */,
 				8B32DD2728E279B400F4D978 /* TabBarViewController.swift */,
@@ -703,6 +167,7 @@
 		8B32DD2928E279DE00F4D978 /* Countries */ = {
 			isa = PBXGroup;
 			children = (
+				8B31898628E3C56400C80888 /* Country detail */,
 				8B32DD2D28E279FF00F4D978 /* ViewModel */,
 				8B32DD2C28E279F500F4D978 /* Model */,
 				8B32DD2B28E279F000F4D978 /* View */,
@@ -763,8 +228,25 @@
 		8B32DD3028E27A1800F4D978 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8B6488DD28E611D800EC0415 /* BLEViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B6488D528E5F1B000EC0415 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B6488D928E5F21B00EC0415 /* CountryDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B6488D628E5F1F700EC0415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B6488D728E5F20500EC0415 /* CountryDetailModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8B7AC6B528E271A7001BA1CF = {
@@ -788,6 +270,7 @@
 		8B7AC6C028E271A7001BA1CF /* Bridgefy */ = {
 			isa = PBXGroup;
 			children = (
+				8BD7A46E28E561CB0032E33D /* Data manager */,
 				8BFD2C5628E4E5CE00EDDF18 /* Utils */,
 				8B31882C28E3C02E00C80888 /* Assets */,
 				8B2EA48428E3815C00A866C9 /* Connection */,
@@ -851,21 +334,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		8BFD2C4128E4E14500EDDF18 /* Images */ = {
+		8BD7A46E28E561CB0032E33D /* Data manager */ = {
 			isa = PBXGroup;
 			children = (
-				8BFD2C4228E4E14500EDDF18 /* PhoneCode.pdf */,
-				8BFD2C4328E4E14500EDDF18 /* Icon.pdf */,
-				8BFD2C4428E4E14500EDDF18 /* Languages.pdf */,
-				8BFD2C4528E4E14500EDDF18 /* CountriesOn.pdf */,
-				8BFD2C4628E4E14500EDDF18 /* Population.pdf */,
-				8BFD2C4728E4E14500EDDF18 /* CountriesOff.pdf */,
-				8BFD2C4828E4E14500EDDF18 /* BLEOn.pdf */,
-				8BFD2C4928E4E14500EDDF18 /* BLEOff.pdf */,
-				8BFD2C4A28E4E14500EDDF18 /* Timezones.pdf */,
-				8BFD2C4B28E4E14500EDDF18 /* Currency.pdf */,
+				8BD7A46F28E561DF0032E33D /* DataManager.swift */,
 			);
-			path = Images;
+			path = "Data manager";
 			sourceTree = "<group>";
 		};
 		8BFD2C5628E4E5CE00EDDF18 /* Utils */ = {
@@ -876,6 +350,7 @@
 				8BFD2C3D28E4CDB300EDDF18 /* UIView+Extension.swift */,
 				8BFD2C5728E4E5DE00EDDF18 /* UIImageView+extension.swift */,
 				8BD7A46C28E502740032E33D /* UIViewController+extension.swift */,
+				8B6488DB28E60A9000EC0415 /* Messages.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -948,190 +423,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B31895F28E3C07800C80888 /* CHN.pdf in Resources */,
-				8B31895628E3C07800C80888 /* MNG.pdf in Resources */,
-				8B31893828E3C07800C80888 /* PNG.pdf in Resources */,
-				8B31893228E3C07800C80888 /* URY.pdf in Resources */,
-				8B31892B28E3C07800C80888 /* TLS.pdf in Resources */,
-				8B31894828E3C07800C80888 /* LSO.pdf in Resources */,
-				8B31892928E3C07800C80888 /* TWN.pdf in Resources */,
-				8BFD2C5528E4E14500EDDF18 /* Currency.pdf in Resources */,
-				8B31890028E3C07800C80888 /* AGO.pdf in Resources */,
-				8B3188F228E3C07800C80888 /* GHA.pdf in Resources */,
-				8BFD2C4D28E4E14500EDDF18 /* Icon.pdf in Resources */,
-				8B3188E328E3C07800C80888 /* NCL.pdf in Resources */,
-				8B31895728E3C07800C80888 /* CAF.pdf in Resources */,
-				8B3188E128E3C07800C80888 /* VEN.pdf in Resources */,
-				8BFD2C5428E4E14500EDDF18 /* Timezones.pdf in Resources */,
-				8B31897428E3C07800C80888 /* LVA.pdf in Resources */,
-				8B31896E28E3C07800C80888 /* CHL.pdf in Resources */,
-				8B31892F28E3C07800C80888 /* ETH.pdf in Resources */,
-				8B3188DF28E3C07800C80888 /* SAU.pdf in Resources */,
-				8B31890728E3C07800C80888 /* UKR.pdf in Resources */,
-				8B31891328E3C07800C80888 /* DJI.pdf in Resources */,
-				8B3188F728E3C07800C80888 /* SLB.pdf in Resources */,
-				8B31890128E3C07800C80888 /* SOM.pdf in Resources */,
-				8B31892128E3C07800C80888 /* DEU.pdf in Resources */,
-				8B31892728E3C07800C80888 /* POL.pdf in Resources */,
-				8B31894928E3C07800C80888 /* GMB.pdf in Resources */,
-				8B31895A28E3C07800C80888 /* GAB.pdf in Resources */,
-				8B31892228E3C07800C80888 /* COG.pdf in Resources */,
-				8B31897328E3C07800C80888 /* BOL.pdf in Resources */,
-				8B31897528E3C07800C80888 /* JOR.pdf in Resources */,
-				8B3188ED28E3C07800C80888 /* SWZ.pdf in Resources */,
-				8B31890E28E3C07800C80888 /* RUS.pdf in Resources */,
-				8B31890B28E3C07800C80888 /* MAR.pdf in Resources */,
-				8B31893F28E3C07800C80888 /* NER.pdf in Resources */,
-				8B31892D28E3C07800C80888 /* CZE.pdf in Resources */,
-				8B31893B28E3C07800C80888 /* MLI.pdf in Resources */,
-				8B3188FA28E3C07800C80888 /* KEN.pdf in Resources */,
-				8B31894B28E3C07800C80888 /* BDI.pdf in Resources */,
-				8B31895C28E3C07800C80888 /* PRI.pdf in Resources */,
-				8B31892328E3C07800C80888 /* NGA.pdf in Resources */,
-				8B31890528E3C07800C80888 /* BWA.pdf in Resources */,
-				8B31894C28E3C07800C80888 /* BGR.pdf in Resources */,
-				8B31896128E3C07800C80888 /* DOM.pdf in Resources */,
-				8B31897C28E3C07800C80888 /* ESP.pdf in Resources */,
-				8B3188DE28E3C07800C80888 /* MKD.pdf in Resources */,
-				8B31893528E3C07800C80888 /* AUS.pdf in Resources */,
-				8B31898128E3C07800C80888 /* MDG.pdf in Resources */,
-				8B3188DA28E3C07800C80888 /* EGY.pdf in Resources */,
-				8B31897028E3C07800C80888 /* NOR.pdf in Resources */,
-				8B31890C28E3C07800C80888 /* ZWE.pdf in Resources */,
-				8B3188DD28E3C07800C80888 /* MEX.pdf in Resources */,
-				8B31891428E3C07800C80888 /* MMR.pdf in Resources */,
-				8B3188E428E3C07800C80888 /* IDN.pdf in Resources */,
-				8B31898228E3C07800C80888 /* LUX.pdf in Resources */,
-				8B31897F28E3C07800C80888 /* JAM.pdf in Resources */,
-				8B31891528E3C07800C80888 /* SDN.pdf in Resources */,
-				8B3188E528E3C07800C80888 /* PSE.pdf in Resources */,
-				8B3188FF28E3C07800C80888 /* MRT.pdf in Resources */,
-				8B31892A28E3C07800C80888 /* JPN.pdf in Resources */,
-				8B31893E28E3C07800C80888 /* IND.pdf in Resources */,
-				8B31896B28E3C07800C80888 /* HTI.pdf in Resources */,
-				8B3188F828E3C07800C80888 /* ARM.pdf in Resources */,
-				8B31890628E3C07800C80888 /* IRQ.pdf in Resources */,
-				8B31898328E3C07800C80888 /* UZB.pdf in Resources */,
-				8B31893728E3C07800C80888 /* BIH.pdf in Resources */,
-				8B3188FB28E3C07800C80888 /* LBN.pdf in Resources */,
-				8B31891628E3C07800C80888 /* MOZ.pdf in Resources */,
-				8B31891A28E3C07800C80888 /* GNQ.pdf in Resources */,
-				8B31894D28E3C07800C80888 /* BFA.pdf in Resources */,
-				8B31893028E3C07800C80888 /* GUY.pdf in Resources */,
-				8B31894128E3C07800C80888 /* KAZ.pdf in Resources */,
-				8B3188E828E3C07800C80888 /* NZL.pdf in Resources */,
-				8B3188EB28E3C07800C80888 /* ESH.pdf in Resources */,
 				8B7AC6D128E271A8001BA1CF /* LaunchScreen.storyboard in Resources */,
-				8B31895228E3C07800C80888 /* PAN.pdf in Resources */,
-				8B31891F28E3C07800C80888 /* AZE.pdf in Resources */,
-				8B31894F28E3C07800C80888 /* KOR.pdf in Resources */,
-				8B31897128E3C07800C80888 /* GEO.pdf in Resources */,
-				8B31896828E3C07800C80888 /* DNK.pdf in Resources */,
-				8B3188F928E3C07800C80888 /* BTN.pdf in Resources */,
-				8B3188F028E3C07800C80888 /* CIV.pdf in Resources */,
-				8B31894A28E3C07800C80888 /* YEM.pdf in Resources */,
-				8B3188E728E3C07800C80888 /* PRT.pdf in Resources */,
-				8B31891B28E3C07800C80888 /* GBR.pdf in Resources */,
-				8B31893428E3C07800C80888 /* ZMB.pdf in Resources */,
-				8B3188F528E3C07800C80888 /* ERI.pdf in Resources */,
-				8B31895928E3C07800C80888 /* TUN.pdf in Resources */,
-				8B31891128E3C07800C80888 /* SRB.pdf in Resources */,
-				8B31894E28E3C07800C80888 /* GUF.pdf in Resources */,
-				8B31896F28E3C07800C80888 /* SWE.pdf in Resources */,
-				8B31892C28E3C07800C80888 /* CAN.pdf in Resources */,
-				8B31894028E3C07800C80888 /* BRA.pdf in Resources */,
-				8B3188E928E3C07800C80888 /* KHM.pdf in Resources */,
-				8B31893628E3C07800C80888 /* TTO.pdf in Resources */,
-				8B3188FD28E3C07800C80888 /* STP.pdf in Resources */,
-				8B31896228E3C07800C80888 /* HND.pdf in Resources */,
-				8BFD2C4C28E4E14500EDDF18 /* PhoneCode.pdf in Resources */,
-				8B3188F428E3C07800C80888 /* BLZ.pdf in Resources */,
-				8B3188E628E3C07800C80888 /* GRL.pdf in Resources */,
 				8B7AC6E328E2723B001BA1CF /* Colors.xcassets in Resources */,
-				8B31892428E3C07800C80888 /* ECU.pdf in Resources */,
-				8B31891D28E3C07800C80888 /* TUR.pdf in Resources */,
-				8B31890928E3C07800C80888 /* MWI.pdf in Resources */,
-				8B31895528E3C07800C80888 /* COL.pdf in Resources */,
-				8B31894228E3C07800C80888 /* BGD.pdf in Resources */,
-				8B31897628E3C07800C80888 /* ARE.pdf in Resources */,
-				8B31891228E3C07800C80888 /* MTQ.pdf in Resources */,
-				8B31896428E3C07800C80888 /* EST.pdf in Resources */,
-				8B31896628E3C07800C80888 /* BLR.pdf in Resources */,
-				8B31897B28E3C07800C80888 /* IRN.pdf in Resources */,
-				8B31897D28E3C07800C80888 /* PER.pdf in Resources */,
-				8B31891028E3C07800C80888 /* NPL.pdf in Resources */,
-				8B31896728E3C07800C80888 /* ISL.pdf in Resources */,
-				8B3188EE28E3C07800C80888 /* CHE.pdf in Resources */,
-				8B31890828E3C07800C80888 /* ITA.pdf in Resources */,
-				8B31895028E3C07800C80888 /* RWA.pdf in Resources */,
-				8B31894528E3C07800C80888 /* AUT.pdf in Resources */,
-				8B31893C28E3C07800C80888 /* TCD.pdf in Resources */,
-				8B3188DB28E3C07800C80888 /* CRI.pdf in Resources */,
-				8B31897728E3C07800C80888 /* IRL.pdf in Resources */,
-				8BFD2C5028E4E14500EDDF18 /* Population.pdf in Resources */,
-				8B31893928E3C07800C80888 /* FIN.pdf in Resources */,
-				8B3188FE28E3C07800C80888 /* DZA.pdf in Resources */,
-				8BFD2C4F28E4E14500EDDF18 /* CountriesOn.pdf in Resources */,
-				8B3188DC28E3C07800C80888 /* SYR.pdf in Resources */,
-				8BFD2C5128E4E14500EDDF18 /* CountriesOff.pdf in Resources */,
-				8B31894628E3C07800C80888 /* MNE.pdf in Resources */,
-				8B3188EC28E3C07800C80888 /* SUR.pdf in Resources */,
-				8B31890D28E3C07800C80888 /* SSD.pdf in Resources */,
-				8B31892E28E3C07800C80888 /* BRN.pdf in Resources */,
-				8B31892028E3C07800C80888 /* SEN.pdf in Resources */,
-				8B3188F628E3C07800C80888 /* NLD.pdf in Resources */,
-				8BFD2C5228E4E14500EDDF18 /* BLEOn.pdf in Resources */,
-				8B31895D28E3C07800C80888 /* GIN.pdf in Resources */,
-				8B31892528E3C07800C80888 /* UGA.pdf in Resources */,
-				8B31894328E3C07800C80888 /* BEL.pdf in Resources */,
-				8B31895E28E3C07800C80888 /* AFG.pdf in Resources */,
-				8B3188FC28E3C07800C80888 /* LBY.pdf in Resources */,
-				8B31895828E3C07800C80888 /* CMR.pdf in Resources */,
-				8B31895128E3C07800C80888 /* KWT.pdf in Resources */,
 				8B7AC6CE28E271A8001BA1CF /* Assets.xcassets in Resources */,
-				8B31893D28E3C07800C80888 /* OMN.pdf in Resources */,
-				8B31892828E3C07800C80888 /* PLW.pdf in Resources */,
-				8B31895B28E3C07800C80888 /* BEN.pdf in Resources */,
-				8BFD2C4E28E4E14500EDDF18 /* Languages.pdf in Resources */,
-				8B31896328E3C07800C80888 /* NAM.pdf in Resources */,
-				8B31897928E3C07800C80888 /* PRY.pdf in Resources */,
-				8B31893A28E3C07800C80888 /* CYP.pdf in Resources */,
-				8B31897E28E3C07800C80888 /* ARG.pdf in Resources */,
-				8B31897A28E3C07800C80888 /* GRC.pdf in Resources */,
-				8B31893128E3C07800C80888 /* ROU.pdf in Resources */,
 				8B7AC6C928E271A7001BA1CF /* Main.storyboard in Resources */,
-				8B31891C28E3C07800C80888 /* MYS.pdf in Resources */,
-				8B31891728E3C07800C80888 /* GNB.pdf in Resources */,
-				8B31890A28E3C07800C80888 /* HRV.pdf in Resources */,
-				8B31896528E3C07800C80888 /* LAO.pdf in Resources */,
-				8B31895328E3C07800C80888 /* ALB.pdf in Resources */,
-				8B3188EF28E3C07800C80888 /* ASM.pdf in Resources */,
-				8B31897228E3C07800C80888 /* PRK.pdf in Resources */,
-				8B31890F28E3C07800C80888 /* GTM.pdf in Resources */,
-				8B31895428E3C07800C80888 /* CUB.pdf in Resources */,
-				8B31896C28E3C07800C80888 /* THA.pdf in Resources */,
-				8B3188EA28E3C07800C80888 /* ISR.pdf in Resources */,
-				8B31891928E3C07800C80888 /* LKA.pdf in Resources */,
-				8B31893328E3C07800C80888 /* PAK.pdf in Resources */,
-				8B31890328E3C07800C80888 /* SVN.pdf in Resources */,
-				8BFD2C5328E4E14500EDDF18 /* BLEOff.pdf in Resources */,
-				8B3188F128E3C07800C80888 /* QAT.pdf in Resources */,
-				8B3188F328E3C07800C80888 /* PHL.pdf in Resources */,
-				8B31896A28E3C07800C80888 /* TGO.pdf in Resources */,
-				8B31894728E3C07800C80888 /* NIC.pdf in Resources */,
-				8B31890228E3C07800C80888 /* SLV.pdf in Resources */,
-				8B31890428E3C07800C80888 /* LTU.pdf in Resources */,
-				8B31897828E3C07800C80888 /* LBR.pdf in Resources */,
-				8B31891828E3C07800C80888 /* USA.pdf in Resources */,
-				8B31896928E3C07800C80888 /* MDA.pdf in Resources */,
-				8B3188E228E3C07800C80888 /* SVK.pdf in Resources */,
-				8B31892628E3C07800C80888 /* NRU.pdf in Resources */,
-				8B31898028E3C07800C80888 /* DMA.pdf in Resources */,
-				8B31896D28E3C07800C80888 /* TKM.pdf in Resources */,
-				8B31894428E3C07800C80888 /* FRA.pdf in Resources */,
-				8B31891E28E3C07800C80888 /* VNM.pdf in Resources */,
-				8B31896028E3C07800C80888 /* HUN.pdf in Resources */,
-				8B3188E028E3C07800C80888 /* SLE.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,6 +485,8 @@
 				8B31898828E3C58300C80888 /* CountryDetailViewController.swift in Sources */,
 				8B7AC6E128E27213001BA1CF /* LoginViewController.swift in Sources */,
 				8B2EA48628E3822600A866C9 /* RequestService.swift in Sources */,
+				8B6488D828E5F20500EC0415 /* CountryDetailModel.swift in Sources */,
+				8B6488DC28E60A9000EC0415 /* Messages.swift in Sources */,
 				8B32DD3428E27A5000F4D978 /* CountriesViewController.swift in Sources */,
 				8B7AC6CC28E271A7001BA1CF /* Bridgefy.xcdatamodeld in Sources */,
 				8B7AC6E528E2724C001BA1CF /* Colors.swift in Sources */,
@@ -1202,7 +499,10 @@
 				8B32DD3228E27A3C00F4D978 /* BLEViewController.swift in Sources */,
 				8B31882B28E3B8EC00C80888 /* CountryTableViewCell.swift in Sources */,
 				8B2EA48A28E3832C00A866C9 /* CountryModel.swift in Sources */,
+				8B6488DA28E5F21B00EC0415 /* CountryDetailViewModel.swift in Sources */,
 				8B7AC6E028E27213001BA1CF /* UserModel.swift in Sources */,
+				8B6488DE28E611D800EC0415 /* BLEViewModel.swift in Sources */,
+				8BD7A47028E561DF0032E33D /* DataManager.swift in Sources */,
 				8BFD2C5828E4E5DE00EDDF18 /* UIImageView+extension.swift in Sources */,
 				8B7AC6C428E271A7001BA1CF /* SceneDelegate.swift in Sources */,
 			);

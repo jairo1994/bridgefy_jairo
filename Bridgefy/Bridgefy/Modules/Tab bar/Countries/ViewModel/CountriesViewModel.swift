@@ -86,18 +86,23 @@ class CountriesViewModel {
         }
     }
 
-    func lookForCountryDetail(indexPath: IndexPath, completion: @escaping(_ country: CountryDetailModel?)->Void){
+    func lookForCountryDetail(indexPath: IndexPath, completion: @escaping(_ country: CountryDetailModel?, _ isSaved: Bool)->Void){
         didFetchLocation?(false)
         guard let country = self.getCountryByIndex(index: indexPath) else {
-            completion(nil)
+            completion(nil, false)
             didFetchLocation?(true)
             return
         }
         
-        RestCountriesService().countryDetail(country: country.name) { country in
-            completion(country)
+        if let country = DataManager.shared.retrieveCountryBy(country.name) {
+            completion(country, true)
             self.didFetchLocation?(true)
+        } else {
+            RestCountriesService().countryDetail(country: country.name) { country in
+                completion(country, false)
+                self.didFetchLocation?(true)
+            }
         }
-
+        
     }
 }

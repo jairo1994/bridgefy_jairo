@@ -2,23 +2,29 @@ PODS:
   - Alamofire (5.4.4)
   - Hero (1.6.1)
   - Kingfisher (7.1.2)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
 
 DEPENDENCIES:
   - Alamofire
   - Hero
   - Kingfisher
+  - SwiftMessages
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - Hero
     - Kingfisher
+    - SwiftMessages
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
   Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
 
-PODFILE CHECKSUM: 9737444f22734ad94b9e11f749445d58efcfad79
+PODFILE CHECKSUM: 379a0bde034fc8cae168a79054d666de6d371b2a
 
 COCOAPODS: 1.11.2

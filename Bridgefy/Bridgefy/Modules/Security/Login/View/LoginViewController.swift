@@ -21,6 +21,7 @@ class LoginViewController: UIViewController {
         button.setTitle("Login", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(nil, action: #selector(showTabBar), for: .touchUpInside)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 32)
         
         return button
     }()
@@ -29,6 +30,7 @@ class LoginViewController: UIViewController {
         let textfield = UITextField()
         textfield.translatesAutoresizingMaskIntoConstraints = false
         textfield.placeholder = "usuario@gmail.com"
+        textfield.text = "challenge@bridgefy.me"
         textfield.font = UIFont.systemFont(ofSize: 20)
         
         return textfield
@@ -39,6 +41,7 @@ class LoginViewController: UIViewController {
         textfield.isSecureTextEntry = true
         textfield.translatesAutoresizingMaskIntoConstraints = false
         textfield.placeholder = "Contraseña"
+        textfield.text = "P@$$w0rD!"
         textfield.font = UIFont.systemFont(ofSize: 20)
         
         return textfield
@@ -55,11 +58,13 @@ class LoginViewController: UIViewController {
         return stack
     }()
     
-    private let icon: UIImageView = {
-        let image = UIImageView(image: UIImage(named: "world"))
-        image.translatesAutoresizingMaskIntoConstraints = false
+    private let icon: UIButton = {
+        let icon = UIButton(type: .system)
+        icon.translatesAutoresizingMaskIntoConstraints = false
+        icon.setImage(UIImage(named: "Icon"), for: .normal)
+        icon.tintColor = Colors.Enfasis.color
         
-        return image
+        return icon
     }()
     
     override func viewDidLoad() {
@@ -97,6 +102,12 @@ class LoginViewController: UIViewController {
     }
     
     @objc func showTabBar(){
-        self.navigationController?.viewControllers = [TabBarViewController()]
+        if let user = userTextField.text, let pass = passTextField.text, user == "challenge@bridgefy.me", pass == "P@$$w0rD!" {
+            self.navigationController?.viewControllers = [TabBarViewController()]
+        }else{
+            Messages.showMessage(theme: .error, title: "Ups", body: "User or password are incorrect")
+        }
+        
+        
     }
 }
