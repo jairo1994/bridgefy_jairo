@@ -56,13 +56,9 @@ class CountryDetailViewController: UIViewController {
         super.viewDidLoad()
         title = viewModel.countryDetail.name
         navigationController?.navigationBar.isHidden = false
-        if viewModel.isSaved {
-            
-        }
         addBarButton()
         navigationController?.navigationBar.tintColor = Colors.Enfasis.color
-
-        configureSubviews()
+        self.configureSubviews()
     }
     
     private func configureSubviews() {

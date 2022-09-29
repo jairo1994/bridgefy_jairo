@@ -40,9 +40,7 @@ extension UIViewController {
     
     func hideLoading(){
         if let view = self.view.subviews.first(where: { $0.tag == 1894 }) {
-            Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { _ in
-                view.removeFromSuperview()
-            }
+            view.removeFromSuperview()
         }
     }
 }

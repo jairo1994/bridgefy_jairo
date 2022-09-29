@@ -15,17 +15,11 @@ class BLEViewController: UIViewController {
         return table
     }()
     
+    private let btnGroup = UIButton(type: .system)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        navigationController?.navigationBar.isHidden = false
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Scan", style: .plain, target: self, action: #selector(scanBLE))
-        navigationController?.navigationBar.tintColor = Colors.Enfasis.color
+        setupView()
     }
     
     @objc func scanBLE(){
@@ -38,7 +32,21 @@ class BLEViewController: UIViewController {
         
         view.addSubview(tableView)
         
+        btnGroup.removeFromSuperview()
+        
+        btnGroup.translatesAutoresizingMaskIntoConstraints = false
+        btnGroup.tintColor = Colors.Enfasis.color
+        btnGroup.setTitle("Scan", for: .normal)
+        btnGroup.addTarget(self, action: #selector(scanBLE), for: .touchUpInside)
+        
+        
+        view.addSubview(btnGroup)
+        
+        
         NSLayoutConstraint.activate([
+            btnGroup.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -8),
+            btnGroup.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+                
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),

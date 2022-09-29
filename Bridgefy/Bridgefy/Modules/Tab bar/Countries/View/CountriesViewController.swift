@@ -30,6 +30,7 @@ class CountriesViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        tableView.isHidden = false
         navigationController?.navigationBar.isHidden = true
     }
     
@@ -223,18 +224,25 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         self.showLoading()
-        viewModel.lookForCountryDetail(indexPath: indexPath) { country, isSaved in
-            self.hideLoading()
-            if let country = country {
-                let viewM = CountryDetailViewModel(countryDetail: country, isSaved: isSaved)
-                let detailVC = CountryDetailViewController(viewModel: viewM)
-                
-                detailVC.hidesBottomBarWhenPushed = true
-                self.navigationController?.pushViewController(detailVC, animated: true)
+        self.tableView.isHidden = true
+        
+        Timer.scheduledTimer(withTimeInterval: 0.8, repeats: false) { _ in
+            self.viewModel.lookForCountryDetail(indexPath: indexPath) { country, isSaved in
+                if let country = country {
+                    let viewM = CountryDetailViewModel(countryDetail: country, isSaved: isSaved)
+                    let detailVC = CountryDetailViewController(viewModel: viewM)
+                    
+                    detailVC.hidesBottomBarWhenPushed = true
+                    
+                    self.navigationController?.pushViewController(detailVC, animated: true)
+                    self.hideLoading()
+                } else {
+                    self.tableView.isHidden = false
+                }
             }
         }
+        
         
     }
     
