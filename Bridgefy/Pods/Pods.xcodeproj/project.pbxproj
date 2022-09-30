@@ -107,7 +107,7 @@
 		6BAF8E62314C31C695FA5DD4A839BB51 /* warningIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C76961C7EDCB9B3C3BE5C0FEC005E9 /* warningIconSubtle.png */; };
 		6C4C53377507F9D77E67A19F3B0DAE69 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919CE837288A1C561585BAA89FEE8F38 /* Identifiable.swift */; };
 		6C9C33E5CF926D0E3BAA5E89A003A2F1 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F3936F5B6036A71BBB2F0545173628 /* HeroTransition+Animate.swift */; };
-		6E5BC0F0DF1D4D4C3A81A3B1ABEB2E52 /* SwiftMessages-SwiftMessages in Resources */ = {isa = PBXBuildFile; fileRef = 753DD909979478A0C1B33E0524504EF1 /* SwiftMessages-SwiftMessages */; };
+		6E5BC0F0DF1D4D4C3A81A3B1ABEB2E52 /* SwiftMessages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */; };
 		7075C90D041C29D7FB3B5B351DF20E90 /* successIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB8E23DAA56F48CB19CF0357489B98 /* successIconSubtle@2x.png */; };
 		70FEC06F54286257E1BA1ECA0C99198D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A24F629C0F22DA3E6750DA7248F197 /* Image.swift */; };
 		71438073BBD2C6C1D77748E56D6C0F9B /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BA6FA57C063B89A6F5635D253D0AFA /* HeroProgressRunner.swift */; };
@@ -414,7 +414,7 @@
 		6F0710C2735653CD06554BA38DE1ED6E /* successIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconLight@3x.png"; path = "SwiftMessages/Resources/successIconLight@3x.png"; sourceTree = "<group>"; };
 		6FCF5D7C7986C0E2E7539009E97E04F5 /* Pods-Bridgefy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bridgefy-frameworks.sh"; sourceTree = "<group>"; };
 		7226A0C3DCA2D9A3982AF913A576EA16 /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
-		753DD909979478A0C1B33E0524504EF1 /* SwiftMessages-SwiftMessages */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SwiftMessages-SwiftMessages"; path = SwiftMessages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMessages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		755807A1940C10FFC5371FD216FEEDE7 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
 		760796E3FC3F1B7F58D018CF1644DCF8 /* warningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIcon@2x.png"; path = "SwiftMessages/Resources/warningIcon@2x.png"; sourceTree = "<group>"; };
 		7699117A5ACE8E0758CB89347A536C56 /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
@@ -454,7 +454,7 @@
 		9C7F2CF44AF9A84A46B153DA9A41142F /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		9CBF3A6093ACA7D610AABAA50C3502A9 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
 		9D11593D8410B7DB2E08E455D2E60BBB /* Locale+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Locale+Hero.swift"; path = "Sources/Extensions/Locale+Hero.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E53D8E197441AF27EA4E311AF0F67E4 /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		9EA58E614E02013CAA95929FB7EABC61 /* MarginAdjustable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarginAdjustable.swift; path = SwiftMessages/MarginAdjustable.swift; sourceTree = "<group>"; };
 		9FA9F2F639A493698946FB6C12E7B141 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
@@ -685,7 +685,6 @@
 				903B729CB23A8FC77494F83B5C750828 /* WKInterfaceImage+Kingfisher.swift */,
 				3EF060566CE24D9ACE2951F01B3DA128 /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -729,7 +728,6 @@
 				7D0F8B19C2A2E20F1A66B7B110AB9092 /* Validation.swift */,
 				CAB63E114C53FB2009D7A145C5AA949B /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -767,7 +765,7 @@
 				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
 				6EA72C610D1B25A724648391D802A1CB /* Pods-Bridgefy */,
 				4824F23D80FF9070A5F8A452DB11EB9A /* SwiftMessages */,
-				753DD909979478A0C1B33E0524504EF1 /* SwiftMessages-SwiftMessages */,
+				753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -866,7 +864,6 @@
 				B5BA0D105BFBA5F052CDDD2F6AB4EF9A /* UIViewController+Hero.swift */,
 				233F0D2AF092C07F334C2FB31E63A502 /* Support Files */,
 			);
-			name = Hero;
 			path = Hero;
 			sourceTree = "<group>";
 		};
@@ -890,7 +887,6 @@
 				F134329176079FAE2A3ED4F277E29D65 /* App */,
 				CE62A8A0C6DC8BF4E29BF793F7516661 /* Support Files */,
 			);
-			name = SwiftMessages;
 			path = SwiftMessages;
 			sourceTree = "<group>";
 		};
@@ -1113,7 +1109,7 @@
 			);
 			name = "SwiftMessages-SwiftMessages";
 			productName = SwiftMessages;
-			productReference = 753DD909979478A0C1B33E0524504EF1 /* SwiftMessages-SwiftMessages */;
+			productReference = 753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		B3893AEA4D7DBB9A086E889FC469132D /* Hero */ = {
@@ -1226,7 +1222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5BC0F0DF1D4D4C3A81A3B1ABEB2E52 /* SwiftMessages-SwiftMessages in Resources */,
+				6E5BC0F0DF1D4D4C3A81A3B1ABEB2E52 /* SwiftMessages.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1639,6 +1635,7 @@
 			baseConfigurationReference = B67CBDF8F6FD2C188337601C43520A61 /* SwiftMessages.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				DEVELOPMENT_TEAM = P2383NQUW7;
 				IBSC_MODULE = SwiftMessages;
 				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-SwiftMessages-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -2039,6 +2036,7 @@
 			baseConfigurationReference = 0B1AC26E3D5F2FF24983DB923939379D /* SwiftMessages.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				DEVELOPMENT_TEAM = P2383NQUW7;
 				IBSC_MODULE = SwiftMessages;
 				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-SwiftMessages-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

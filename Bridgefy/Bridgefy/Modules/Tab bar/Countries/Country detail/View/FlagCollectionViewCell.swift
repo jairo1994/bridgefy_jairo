@@ -16,13 +16,9 @@ class FlagCollectionViewCell: UICollectionViewCell {
     
     func configCell(border: String){
         let img = getLabel(text: flag(country: border), size: 45)
-//        let lbl = getLabel(text: border)
-        
         let stack = getStack(axis: .horizontal, aligment: .fill, distribution: .fill, space: 8)
         
         stack.addArrangedSubview(img)
-//        stack.addArrangedSubview(lbl)
-        
         contentView.addSubview(stack)
         stack.constraintToParent(parent: contentView)
     }

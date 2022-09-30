@@ -16,12 +16,12 @@
 		8B31898528E3C0BA00C80888 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31898428E3C0BA00C80888 /* Image.swift */; };
 		8B31898828E3C58300C80888 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31898728E3C58300C80888 /* CountryDetailViewController.swift */; };
 		8B32DD2828E279B400F4D978 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32DD2728E279B400F4D978 /* TabBarViewController.swift */; };
-		8B32DD3228E27A3C00F4D978 /* BLEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32DD3128E27A3C00F4D978 /* BLEViewController.swift */; };
 		8B32DD3428E27A5000F4D978 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32DD3328E27A5000F4D978 /* CountriesViewController.swift */; };
 		8B6488D828E5F20500EC0415 /* CountryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488D728E5F20500EC0415 /* CountryDetailModel.swift */; };
 		8B6488DA28E5F21B00EC0415 /* CountryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488D928E5F21B00EC0415 /* CountryDetailViewModel.swift */; };
 		8B6488DC28E60A9000EC0415 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488DB28E60A9000EC0415 /* Messages.swift */; };
 		8B6488DE28E611D800EC0415 /* BLEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488DD28E611D800EC0415 /* BLEViewModel.swift */; };
+		8B6488E028E7783400EC0415 /* BLEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6488DF28E7783400EC0415 /* BLEViewController.swift */; };
 		8B7AC6C228E271A7001BA1CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6C128E271A7001BA1CF /* AppDelegate.swift */; };
 		8B7AC6C428E271A7001BA1CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6C328E271A7001BA1CF /* SceneDelegate.swift */; };
 		8B7AC6C928E271A7001BA1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AC6C728E271A7001BA1CF /* Main.storyboard */; };
@@ -32,6 +32,7 @@
 		8B7AC6E128E27213001BA1CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6DF28E27213001BA1CF /* LoginViewController.swift */; };
 		8B7AC6E328E2723B001BA1CF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AC6E228E2723B001BA1CF /* Colors.xcassets */; };
 		8B7AC6E528E2724C001BA1CF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AC6E428E2724C001BA1CF /* Colors.swift */; };
+		8BAC15BD28E7AB0600979D0B /* BluetoothCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC15BC28E7AB0600979D0B /* BluetoothCellTableViewCell.swift */; };
 		8BD7A46B28E501F20032E33D /* FlagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46A28E501F20032E33D /* FlagCollectionViewCell.swift */; };
 		8BD7A46D28E502740032E33D /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46C28E502740032E33D /* UIViewController+extension.swift */; };
 		8BD7A47028E561DF0032E33D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7A46F28E561DF0032E33D /* DataManager.swift */; };
@@ -53,12 +54,12 @@
 		8B31898428E3C0BA00C80888 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		8B31898728E3C58300C80888 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 		8B32DD2728E279B400F4D978 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		8B32DD3128E27A3C00F4D978 /* BLEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewController.swift; sourceTree = "<group>"; };
 		8B32DD3328E27A5000F4D978 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		8B6488D728E5F20500EC0415 /* CountryDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailModel.swift; sourceTree = "<group>"; };
 		8B6488D928E5F21B00EC0415 /* CountryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewModel.swift; sourceTree = "<group>"; };
 		8B6488DB28E60A9000EC0415 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		8B6488DD28E611D800EC0415 /* BLEViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewModel.swift; sourceTree = "<group>"; };
+		8B6488DF28E7783400EC0415 /* BLEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewController.swift; sourceTree = "<group>"; };
 		8B7AC6BE28E271A7001BA1CF /* Bridgefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridgefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7AC6C128E271A7001BA1CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B7AC6C328E271A7001BA1CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		8B7AC6DF28E27213001BA1CF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8B7AC6E228E2723B001BA1CF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8B7AC6E428E2724C001BA1CF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8BAC15BC28E7AB0600979D0B /* BluetoothCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCellTableViewCell.swift; sourceTree = "<group>"; };
 		8BD7A46A28E501F20032E33D /* FlagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BD7A46C28E502740032E33D /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
 		8BD7A46F28E561DF0032E33D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -213,7 +215,8 @@
 		8B32DD2E28E27A1400F4D978 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8B32DD3128E27A3C00F4D978 /* BLEViewController.swift */,
+				8B6488DF28E7783400EC0415 /* BLEViewController.swift */,
+				8BAC15BC28E7AB0600979D0B /* BluetoothCellTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -495,8 +498,9 @@
 				8B2EA48F28E398F600A866C9 /* LoadingView.swift in Sources */,
 				8B2EA48828E3829200A866C9 /* RestCountriesService.swift in Sources */,
 				8B31898528E3C0BA00C80888 /* Image.swift in Sources */,
+				8BAC15BD28E7AB0600979D0B /* BluetoothCellTableViewCell.swift in Sources */,
+				8B6488E028E7783400EC0415 /* BLEViewController.swift in Sources */,
 				8B2EA48C28E387CB00A866C9 /* CountriesViewModel.swift in Sources */,
-				8B32DD3228E27A3C00F4D978 /* BLEViewController.swift in Sources */,
 				8B31882B28E3B8EC00C80888 /* CountryTableViewCell.swift in Sources */,
 				8B2EA48A28E3832C00A866C9 /* CountryModel.swift in Sources */,
 				8B6488DA28E5F21B00EC0415 /* CountryDetailViewModel.swift in Sources */,
@@ -660,6 +664,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -689,6 +694,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
